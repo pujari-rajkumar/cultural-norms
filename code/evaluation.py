@@ -24,7 +24,8 @@ def f1_score_func(preds, labels):
     preds_flat = np.argmax(preds, axis=1).flatten()
     labels_flat = labels.flatten()
     return f1_score(labels_flat, preds_flat, average='weighted')
-def accuracy_per_class(preds, labels):
+    
+def accuracy_per_class(preds, labels, label_dict):
     label_dict_inverse = {v: k for k, v in label_dict.items()}
     
     preds_flat = np.argmax(preds, axis=1).flatten()
@@ -34,8 +35,20 @@ def accuracy_per_class(preds, labels):
         y_preds = preds_flat[labels_flat==label]
         y_true = labels_flat[labels_flat==label]
         print(f'Class: {label_dict_inverse[label]}')
-        print(f'Accuracy: {len(y_preds[y_preds==label])}/{len(y_true)}\n')
+        print(f'Accuracy: {len(y_preds[y_preds==label])}/{len(y_true)}')
+        print("Accuracy Percentage : " +  str(len(y_preds[y_preds==label])/len(y_true)))
+        print("")
 
+
+# preds_flat = np.argmax(val_predictions, axis=1).flatten()
+#     labels_flat = val_true_values.flatten()
+
+#     print(classification_report(y_pred=preds_flat, y_true=labels_flat))
+
+#     print(label_dict_reverse)
+
+#     matrix = confusion_matrix(y_true=labels_flat, y_pred=preds_flat)
+#     print(matrix.diagonal()/matrix.sum(axis=1))
 
 def evaluate(model, dataloader_val, device):
 
@@ -68,4 +81,6 @@ def evaluate(model, dataloader_val, device):
     true_vals = np.concatenate(true_vals, axis=0)
             
     return loss_val_avg, predictions, true_vals
+
+
 

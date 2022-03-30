@@ -31,13 +31,15 @@ dialogue_data = json.load(f)
 
 
 # split the keys into a training/dev/test set
-train_dev_set, test_set = sklearn.model_selection.train_test_split(list(dialogue_data.keys()), test_size=20)
-train_set, dev_set = sklearn.model_selection.train_test_split(train_dev_set, test_size=20)
+train_dev_set, test_set = sklearn.model_selection.train_test_split(list(dialogue_data.keys()), test_size=0.20)
+train_set, dev_set = sklearn.model_selection.train_test_split(train_dev_set, test_size=0.20)
+
 
 # get tuples of utterance and emotion from the dataset
 train_set_utterances = get_utterance_emotion_tuples(dialogue_data, train_set)
 dev_set_utterances = get_utterance_emotion_tuples(dialogue_data, dev_set)
 test_set_utterances = get_utterance_emotion_tuples(dialogue_data, test_set)
+
 
 # get the labels so we can convert them to int later
 label_counter = 1
@@ -46,6 +48,7 @@ for x in train_set_utterances:
     if x[1] not in label_dict:
         label_dict[x[1]] = label_counter
         label_counter += 1
+np.save(dir_path + 'label_dict.npy', np.asarray(label_dict))
 
 # set the pandas dataframes
 train_df = create_dict_for_pandas(train_set_utterances, label_dict)
@@ -54,6 +57,6 @@ test_df = create_dict_for_pandas(test_set_utterances, label_dict)
 
 # save the pandas dataframes and we will load these later in train_model.py
 train_df.to_csv(dir_path + 'train_emotion.tsv', sep='\t', index=False, header=True, columns=train_df.columns)
-train_df.to_csv(dir_path + 'dev_emotions.tsv', sep='\t', index=False, header=True, columns=dev_df.columns)
-train_df.to_csv(dir_path + 'test_emotions.tsv', sep='\t', index=False, header=True, columns=test_df.columns)
+dev_df.to_csv(dir_path + 'dev_emotions.tsv', sep='\t', index=False, header=True, columns=dev_df.columns)
+test_df.to_csv(dir_path + 'test_emotions.tsv', sep='\t', index=False, header=True, columns=test_df.columns)
 
