@@ -31,8 +31,8 @@ dialogue_data = json.load(f)
 
 
 # split the keys into a training/dev/test set
-train_dev_set, test_set = sklearn.model_selection.train_test_split(list(dialogue_data.keys()), test_size=0.20)
-train_set, dev_set = sklearn.model_selection.train_test_split(train_dev_set, test_size=0.20)
+train_dev_set, test_set = sklearn.model_selection.train_test_split(list(dialogue_data.keys()), test_size=0.20, random_state=4056)
+train_set, dev_set = sklearn.model_selection.train_test_split(train_dev_set, test_size=0.20, random_state=4056)
 
 
 # get tuples of utterance and emotion from the dataset
