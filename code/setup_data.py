@@ -6,15 +6,26 @@ import pandas as pd
 
 dir_path = '/u/zaphod_s3/mehta52/DARPA_project/'
 
-def get_utterance_emotion_tuples(all_data, data_split_keys):
-    
+def get_utterance_emotion_tuples(all_data, data_split_keys): 
     return_utterance_emotion = []
     for x in data_split_keys:
         all_utterances = all_data[x]
         for utterance_dict in all_utterances:
             return_utterance_emotion.append((utterance_dict['utterance'], utterance_dict['emotion']))
-            
     return return_utterance_emotion
+
+def get_relationship_prediction_tuples(all_data, data_split_keys):
+    ret_data = []
+    for key in data_split_keys:
+        all_utterances = all_data[x]
+        for i, turn in enumerate(all_utterances):
+            if i > 0:
+                prev_turn = all_utterances[i - 1]
+                listeners = [item['name'] for item in turn['listener']]
+                if prev_turn['speaker'] in listeners:
+                    lidx = listeners.index(prev_turn['spreaker'])
+                    ret_data.append((turn['utterance'], prev_turn['utterance'], turn['emotion'], prev_turn['emotion'], turn[lidx]['relation']))
+    return ret_data
 
 def create_dict_for_pandas(given_utterances, label_int_dict):
     out_df_list = []
