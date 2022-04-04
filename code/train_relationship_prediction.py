@@ -22,10 +22,10 @@ from collections import defaultdict
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 
-parser = argparse.ArgumentParser(description='download twitter data')
+parser = argparse.ArgumentParser(description='read arguments for training relationship prediction in MPDD')
 
 parser.add_argument('--dir_path', nargs='?', type=str, default='/u/zaphod_s3/mehta52/DARPA_project/', help='Where everything should be saved')
-parser.add_argument('--train_model', action='store_true', help="True if you want to train the model, else it will evaluate.")
+parser.add_argument('--train_model', action='store_true', help="True if you want to train the model, else it will only evaluate.")
 parser.add_argument('--do_eval_and_save', action='store_true', help="True if you want to evaluate the model and save the results.")
 parser.add_argument('--check_results', action='store_true', help="True if have already saved the results by running do_eval_and_save and now you want to run some analysis on them. For now we check the accuracy of each class for emotion classification.")
 parser.add_argument("--epoch_to_load", type=int, default=0, help="What epoch trained model you want to load")
@@ -33,11 +33,14 @@ parser.add_argument("--num_epochs", type=int, default=1, help="How many epochs y
 
 args = parser.parse_args()
 
-def get_text_labels(given_dataset):
+def get_data(given_dataset):
     '''helper function to process the pandas dataframe for the MPDD dataset'''
 
-    return_text = []
-    return_labels = []
+    utteraces = []
+    prev_utterances = []
+    emotion = []
+    prev_emotion = []
+    label = []
     
     for index, row in given_dataset.iterrows():
         return_text.append(row['text'])

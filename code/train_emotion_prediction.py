@@ -70,9 +70,9 @@ def load_dict(dict_path):
 
 
 # load the data that we set up earlier
-train_csv = pd.read_csv(args.dir_path + 'train_emotion.tsv', sep='\t')
-dev_csv = pd.read_csv(args.dir_path + 'dev_emotions.tsv', sep='\t')
-test_csv = pd.read_csv(args.dir_path + 'test_emotions.tsv', sep='\t')
+train_csv = pd.read_csv(args.dir_path + 'emotions_train.tsv', sep='\t')
+dev_csv = pd.read_csv(args.dir_path + 'emotions_dev.tsv', sep='\t')
+test_csv = pd.read_csv(args.dir_path + 'emotions_test.tsv', sep='\t')
 # process the data 
 train_texts, train_labels = get_text_labels(train_csv)
 dev_texts, dev_labels = get_text_labels(dev_csv)
@@ -109,7 +109,7 @@ optim = AdamW(model.parameters(), lr=5e-5)
 
 if args.train_model:
     best_val_f1 = 0.0
-    label_dict = load_dict(args.dir_path + 'label_dict.npy')
+    label_dict = load_dict(args.dir_path + 'emotions_label-label_dict.npy')
     for epoch in tqdm(range(args.num_epochs)):
 
         model.train()
@@ -174,6 +174,6 @@ elif args.check_results:
     val_true_values = np.load(args.dir_path + '/results_emotion/val_true_values.npy')
 
     # load the label dict so we can map the classes. This was computed in setup_data.py
-    label_dict = load_dict(args.dir_path + 'label_dict.npy')
+    label_dict = load_dict(args.dir_path + 'emotions_label-label_dict.npy')
 
     accuracy_per_class(preds=val_predictions, labels=val_true_values, label_dict=label_dict)

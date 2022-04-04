@@ -16,6 +16,20 @@ def get_utterance_emotion_tuples(all_data, data_split_keys):
 
 def get_relationship_prediction_tuples(all_data, data_split_keys):
     ret_data = []
+    metadata = json.load(open(dir_path + 'mpdd/metadata.json'))
+    rev_field = {'unknown': 'unknown'}
+    rev_position = {'unknown': 'unknown'}
+
+    for key in metadata['field']:
+        for reln in metadata['field'][key]:
+            if reln != 'unknown':
+                rev_field[reln] = key
+
+    for key in metadata['position']:
+        for reln in metadata['position'][key]:
+            if reln != 'unknown':
+                rev_position[reln] = key
+
     for key in data_split_keys:
         all_utterances = all_data[key]
         for i, turn in enumerate(all_utterances):
@@ -24,7 +38,8 @@ def get_relationship_prediction_tuples(all_data, data_split_keys):
                 listeners = [item['name'] for item in turn['listener']]
                 if prev_turn['speaker'] in listeners:
                     lidx = listeners.index(prev_turn['speaker'])
-                    ret_data.append((turn['utterance'], prev_turn['utterance'], turn['emotion'], prev_turn['emotion'], turn['listener'][lidx]['relation']))
+                    relation = turn['listener'][lidx]['relation']
+                    ret_data.append((turn['utterance'], prev_turn['utterance'], turn['emotion'], prev_turn['emotion'], rev_field[relation], rev_position[relation], relation))
     return ret_data
 
 def create_dict_for_pandas(given_utterances, label_int_dict, header):
@@ -34,25 +49,22 @@ def create_dict_for_pandas(given_utterances, label_int_dict, header):
         for key, item in zip(header, given_utterance):
             sample_dict[key] = item
         out_df_list.append(sample_dict)
-    #for tup in out_df_list:
-        #print(tup)
-        #print('-------------------------\n')
 
     out_df = pd.DataFrame(out_df_list)
     return out_df 
 
-def create_data_tsvs(data_tuples, dir_path, header, prefix=''):
+def create_data_tsvs(data_tuples, dir_path, header, label_idx=[-1], prefix=''):
     train_set, dev_set, test_set = data_tuples
 
     # get the labels so we can convert them to int later
-    label_counter = 1
-    label_dict = {}
-    for tup in train_set:
-        if tup[-1] not in label_dict:
-            #print(tup[-1])
-            label_dict[tup[-1]] = label_counter
-            label_counter += 1
-    np.save(dir_path + prefix + 'label_dict.npy', np.asarray(label_dict))
+    for id_ in label_idx:
+        label_counter = 1
+        label_dict = {}
+        for tup in train_set:
+            if tup[id_] not in label_dict:
+                label_dict[tup[id_]] = label_counter
+                label_counter += 1
+        np.save(dir_path + prefix + header[id_] + '-label_dict.npy', np.asarray(label_dict))
 
     # set the pandas dataframes
     train_df = create_dict_for_pandas(train_set, label_dict, header)
@@ -82,9 +94,6 @@ if __name__ == "__main__":
     train_dev_set, test_set = sklearn.model_selection.train_test_split(list(dialogue_data.keys()), test_size=0.20, random_state=4056)
     train_set, dev_set = sklearn.model_selection.train_test_split(train_dev_set, test_size=0.20, random_state=4056)
 
-    #print(train_set)
-    #print(dev_set)
-    #print(test_set)
 
     ### Emotion Detection data setup ###
     #get tuples of relationship prediction from data
@@ -95,7 +104,8 @@ if __name__ == "__main__":
     emotion_data_tuples = (emotion_train_set, emotion_dev_set, emotion_test_set)
 
     emotion_header = ['text', 'label']
-    create_data_tsvs(emotion_data_tuples, dir_path, emotion_header, 'emotions_')
+    create_data_tsvs(emotion_data_tuples, dir_path, emotion_header, prefix='emotions_')
+    #print(test_set)
 
     ### Relationship Prediction Dataset ###
     #get tuples of relationship prediction from data
@@ -105,5 +115,6 @@ if __name__ == "__main__":
 
     reln_data_tuples = (reln_train_set, reln_dev_set, reln_test_set)
 
-    reln_header = ['utterance', 'prev_utteracne', 'emotion', 'prev_emotion', 'relation']
-    create_data_tsvs(reln_data_tuples, dir_path, reln_header, 'relationship_')
+    reln_header = ['utterance', 'prev_utteracne', 'emotion', 'prev_emotion', 'field', 'position', 'relation']
+    label_idx = [4, 5, 6]
+    create_data_tsvs(reln_data_tuples, dir_path, reln_header, label_idx=label_idx, prefix='relationship_')
