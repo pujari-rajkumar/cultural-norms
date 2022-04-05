@@ -38,30 +38,48 @@ def get_data(given_dataset):
 
     utteraces = []
     prev_utterances = []
-    emotion = []
-    prev_emotion = []
-    label = []
-    
+    emotions = []
+    prev_emotions = []
+    fields = []
+    positions = []
+    relations = []
+
     for index, row in given_dataset.iterrows():
-        return_text.append(row['text'])
-        return_labels.append(row['label'])
+        utterances.append(row['utterance'])
+        prev_utterances.append(row['prev_utterance'])
+        emotions.append(row['emotion'])
+        prev_emotions.append(row['prev_emotion'])
+        fields.append(row['field'])
+        positions.append(row['position'])
+        relations.append(row['relation'])
         
-    return return_text, return_labels
+    return utterances, prev_utterances, emotions, prev_emotions, fields, positions, relations
 
 
 class CustomDataset(torch.utils.data.Dataset):
     '''class for our customDataset that we can pass into PyTorch via dataloader'''
-    def __init__(self, encodings, labels):
-        self.encodings = encodings
-        self.labels = labels
+    def __init__(self, ut, prev_ut, em, prev_em, fs, ps, rs, task='relationship'):
+        self.utterance_encs = ut
+        self.prev_utterance_encs = prev_ut
+        self.emotions = em
+        self.prev_emotions = prev_em
+        self.fields = fs
+        self.positions = ps
+        self.relationships = rs
+        self.task = task
 
     def __getitem__(self, idx):
         item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
-        item['labels'] = torch.tensor(self.labels[idx])
+        if self.task == 'relationship':
+            item['labels'] = torch.tensor(self.relationships[idx])
+        elif self.task = 'position':
+            item['labels'] = torch.tensor(self.positions[idx])
+        elif self.task == 'field':
+            item['labels'] = torch.tensor(self.fields[idx])
         return item
 
     def __len__(self):
-        return len(self.labels)
+        return len(self.relationships)
 
 def load_dict(dict_path):
     '''helper function to load a dictionary given a dict_path'''
@@ -71,32 +89,39 @@ def load_dict(dict_path):
     return out_dict
 
 
+# load the data that we set up using setup_data.py
+train_csv = pd.read_csv(args.dir_path + 'relationship_train.tsv', sep='\t')
+dev_csv = pd.read_csv(args.dir_path + 'relationship_dev.tsv', sep='\t')
+test_csv = pd.read_csv(args.dir_path + 'relationship_test.tsv', sep='\t')
 
-# load the data that we set up earlier
-train_csv = pd.read_csv(args.dir_path + 'train_emotion.tsv', sep='\t')
-dev_csv = pd.read_csv(args.dir_path + 'dev_emotions.tsv', sep='\t')
-test_csv = pd.read_csv(args.dir_path + 'test_emotions.tsv', sep='\t')
 # process the data 
-train_texts, train_labels = get_text_labels(train_csv)
-dev_texts, dev_labels = get_text_labels(dev_csv)
-test_texts, test_labels = get_text_labels(test_csv)
-print(Counter(train_labels))
+tr_ut, tr_prev_ut, tr_em, tr_prev_em, tr_f, tr_p, tr_r = get_data(train_csv)
+de_ut, de_prev_ut, de_em, de_prev_em, de_f, de_p, de_r = get_data(dev_csv)
+te_ut, te_prev_ut, te_em, te_prev_em, te_f, te_p, te_r = get_data(test_csv)
+
 
 # set up the tokenizer and tokenize the data
 tokenizer_class = BertTokenizer
 tokenizer = tokenizer_class.from_pretrained('hfl/chinese-bert-wwm')
-train_encodings = tokenizer(train_texts, truncation=True, padding=True, return_attention_mask=True, pad_to_max_length=True)
-val_encodings = tokenizer(dev_texts, truncation=True, padding=True, return_attention_mask=True, pad_to_max_length=True)
-test_encodings = tokenizer(test_texts, truncation=True, padding=True, return_attention_mask=True, pad_to_max_length=True)
+
+tr_ut_enc = tokenizer(tr_ut, truncation=True, padding=True, return_attention_mask=True, pad_to_max_length=True, max_length=512)
+tr_prev_ut_enc = tokenizer(tr_prev_ut, truncation=True, padding=True, return_attention_mask=True, pad_to_max_length=True, max_length=512)
+
+de_ut_enc = tokenizer(de_ut, truncation=True, padding=True, return_attention_mask=True, pad_to_max_length=True, max_length=512)
+de_prev_ut_enc = tokenizer(de_prev_ut, truncation=True, padding=True, return_attention_mask=True, pad_to_max_length=True, max_length=512)
+
+tr_ut_enc = tokenizer(te_ut, truncation=True, padding=True, return_attention_mask=True, pad_to_max_length=True, max_length=512)
+te_prev_ut_enc = tokenizer(te_prev_ut, truncation=True, padding=True, return_attention_mask=True, pad_to_max_length=True, max_length=512)
 
 # set up the data as a dataset
-train_dataset = CustomDataset(train_encodings, train_labels)
-val_dataset = CustomDataset(val_encodings, dev_labels)
-test_dataset = CustomDataset(test_encodings, test_labels)
+train_dataset = CustomDataset(tr_ut_enc, tr_prev_ut_enc, tr_em, tr_prev_em, tr_f, tr_p, tr_r)
+dev_dataset = CustomDataset(de_ut_enc, de_prev_ut_enc, de_em, de_prev_em, de_f, de_p, de_r)
+test_dataset = CustomDataset(te_ut_enc, te_prev_ut_enc, te_em, te_prev_em, te_f, te_p, te_r)
+
 # set up the dataloader
 train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
-val_loader = DataLoader(val_dataset, batch_size=64, shuffle=True)
-test_loader = DataLoader(test_dataset, batch_size=64, shuffle=True)
+dev_loader = DataLoader(dev_dataset, batch_size=64, shuffle=False)
+test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
 
 # set up the model
 model_class = BertForSequenceClassification

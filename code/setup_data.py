@@ -42,34 +42,69 @@ def get_relationship_prediction_tuples(all_data, data_split_keys):
                     ret_data.append((turn['utterance'], prev_turn['utterance'], turn['emotion'], prev_turn['emotion'], rev_field[relation], rev_position[relation], relation))
     return ret_data
 
-def create_dict_for_pandas(given_utterances, label_int_dict, header):
+def create_dict_for_pandas(given_utterances, label_int_dicts, header, keep_text_labels=True, label_idx=[-1]):
     out_df_list = []
     for df_counter, given_utterance in enumerate(given_utterances):
         sample_dict = {'id': df_counter}
         for key, item in zip(header, given_utterance):
             sample_dict[key] = item
+        if not keep_text_labels:
+            for id_,li_dict in zip(label_idx, label_int_dicts):
+                if type(id_) == int:
+                    sample_dict[header[id_]] = li_dict[given_utterance[id_]]
+                else:
+                    for id1 in id_:
+                        sample_dict[header[id1]] = li_dict[given_utterance[id1]]
         out_df_list.append(sample_dict)
-
     out_df = pd.DataFrame(out_df_list)
     return out_df 
 
-def create_data_tsvs(data_tuples, dir_path, header, label_idx=[-1], prefix=''):
+def create_data_tsvs(data_tuples, dir_path, header, label_idx=[-1], prefix='', keep_text_labels=True):
     train_set, dev_set, test_set = data_tuples
 
     # get the labels so we can convert them to int later
+    label_int_dicts = []
     for id_ in label_idx:
-        label_counter = 1
-        label_dict = {}
-        for tup in train_set:
-            if tup[id_] not in label_dict:
-                label_dict[tup[id_]] = label_counter
-                label_counter += 1
-        np.save(dir_path + prefix + header[id_] + '-label_dict.npy', np.asarray(label_dict))
+        if type(id_) == tuple:
+            label_counter = 0
+            label_dict = {}
+            for id1 in id_:
+                for tup in train_set:
+                    if tup[id1] not in label_dict:
+                        label_dict[tup[id1]] = label_counter
+                        label_counter += 1
+                for tup in dev_set:
+                    if tup[id1] not in label_dict:
+                        label_dict[tup[id1]] = label_counter
+                        label_counter += 1
+                for tup in test_set:
+                    if tup[id1] not in label_dict:
+                        label_dict[tup[id1]] = label_counter
+                        label_counter += 1
+            np.save(dir_path + prefix + header[id_[0]] + '-label_dict.npy', np.asarray(label_dict))
+            label_int_dicts.append(label_dict)
+        else:
+            label_counter = 0
+            label_dict = {}
+            for tup in train_set:
+                if tup[id_] not in label_dict:
+                    label_dict[tup[id_]] = label_counter
+                    label_counter += 1
+            for tup in dev_set:
+                if tup[id_] not in label_dict:
+                    label_dict[tup[id_]] = label_counter
+                    label_counter += 1
+            for tup in test_set:
+                if tup[id_] not in label_dict:
+                    label_dict[tup[id_]] = label_counter
+                    label_counter += 1
+            np.save(dir_path + prefix + header[id_] + '-label_dict.npy', np.asarray(label_dict))
+            label_int_dicts.append(label_dict)
 
     # set the pandas dataframes
-    train_df = create_dict_for_pandas(train_set, label_dict, header)
-    dev_df = create_dict_for_pandas(dev_set, label_dict, header)
-    test_df = create_dict_for_pandas(test_set, label_dict, header)
+    train_df = create_dict_for_pandas(train_set, label_int_dicts, header, keep_text_labels=keep_text_labels, label_idx=label_idx)
+    dev_df = create_dict_for_pandas(dev_set, label_int_dicts, header, keep_text_labels=keep_text_labels, label_idx=label_idx)
+    test_df = create_dict_for_pandas(test_set, label_int_dicts, header, keep_text_labels=keep_text_labels, label_idx=label_idx)
 
     # save the pandas dataframes and we will load these later in train_model.py
     train_df.to_csv(dir_path + prefix + 'train.tsv', sep='\t', index=False, header=True, columns=train_df.columns)
@@ -104,7 +139,7 @@ if __name__ == "__main__":
     emotion_data_tuples = (emotion_train_set, emotion_dev_set, emotion_test_set)
 
     emotion_header = ['text', 'label']
-    create_data_tsvs(emotion_data_tuples, dir_path, emotion_header, prefix='emotions_')
+    create_data_tsvs(emotion_data_tuples, dir_path, emotion_header, prefix='emotions_', keep_text_labels=False)
     #print(test_set)
 
     ### Relationship Prediction Dataset ###
@@ -115,6 +150,6 @@ if __name__ == "__main__":
 
     reln_data_tuples = (reln_train_set, reln_dev_set, reln_test_set)
 
-    reln_header = ['utterance', 'prev_utteracne', 'emotion', 'prev_emotion', 'field', 'position', 'relation']
-    label_idx = [4, 5, 6]
-    create_data_tsvs(reln_data_tuples, dir_path, reln_header, label_idx=label_idx, prefix='relationship_')
+    reln_header = ['utterance', 'prev_utterance', 'emotion', 'prev_emotion', 'field', 'position', 'relation']
+    label_idx = [(2, 3), 4, 5, 6]
+    create_data_tsvs(reln_data_tuples, dir_path, reln_header, label_idx=label_idx, prefix='relationship_', keep_text_labels=True)
