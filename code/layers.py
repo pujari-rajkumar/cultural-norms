@@ -1,6 +1,7 @@
 from sklearn.metrics import f1_score
 from sklearn.metrics import confusion_matrix
 from tqdm import tqdm
+import sys
 
 import torch
 import torch.nn as nn
@@ -117,6 +118,7 @@ class RelationshipPredictor(nn.Module):
                 
             loss_train_avg = loss_train_total/len(train_loader)
             tqdm.write(f'Training loss: {loss_train_avg}')
+            sys.stdout.flush()
                 
             dev_fres, dev_pres, dev_rres = self.evaluate(dev_loader)
             dev_acc, dev_loss, (f1_mi, f1_ma, cm) = dev_rres
