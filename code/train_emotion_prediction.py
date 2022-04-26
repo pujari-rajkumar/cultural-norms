@@ -28,8 +28,12 @@ parser.add_argument('--dir_path', nargs='?', type=str, default='/u/zaphod_s3/meh
 parser.add_argument('--train_model', action='store_true', help="True if you want to train the model, else it will evaluate.")
 parser.add_argument('--do_eval_and_save', action='store_true', help="True if you want to evaluate the model and save the results.")
 parser.add_argument('--check_results', action='store_true', help="True if have already saved the results by running do_eval_and_save and now you want to run some analysis on them. For now we check the accuracy of each class for emotion classification.")
+parser.add_argument('--do_analysis_on_mistakes', action='store_true', help="True if you want to run some analysis on the mistakes the model is making for evaluation.")
+
 parser.add_argument("--epoch_to_load", type=int, default=0, help="What epoch trained model you want to load")
 parser.add_argument("--num_epochs", type=int, default=1, help="How many epochs you want to run")
+
+
 
 args = parser.parse_args()
 
@@ -38,23 +42,35 @@ def get_text_labels(given_dataset):
 
     return_text = []
     return_labels = []
+    return_prev_utterances = []
+    return_relations = []
     
     for index, row in given_dataset.iterrows():
         return_text.append(row['text'])
         return_labels.append(row['label'])
+        return_prev_utterances.append(row['prev_utterance'])
+        return_relations.append(row['relation'])
         
-    return return_text, return_labels
+        
+    return return_text, return_labels, return_prev_utterances, return_relations
+
 
 
 class CustomDataset(torch.utils.data.Dataset):
     '''class for our customDataset that we can pass into PyTorch via dataloader'''
-    def __init__(self, encodings, labels):
+    def __init__(self, encodings, labels, original_texts, prev_utterances, relations):
         self.encodings = encodings
         self.labels = labels
+        self.original_texts = original_texts
+        self.prev_utterances = prev_utterances
+        self.relations = relations
 
     def __getitem__(self, idx):
         item = {key: torch.tensor(val[idx]) for key, val in self.encodings.items()}
         item['labels'] = torch.tensor(self.labels[idx])
+        item['original_text'] = self.original_texts[idx]
+        item['prev_utterance'] = self.prev_utterances[idx]
+        item['relation'] = self.relations[idx]
         return item
 
     def __len__(self):
@@ -74,9 +90,9 @@ train_csv = pd.read_csv(args.dir_path + 'emotions_train.tsv', sep='\t')
 dev_csv = pd.read_csv(args.dir_path + 'emotions_dev.tsv', sep='\t')
 test_csv = pd.read_csv(args.dir_path + 'emotions_test.tsv', sep='\t')
 # process the data 
-train_texts, train_labels = get_text_labels(train_csv)
-dev_texts, dev_labels = get_text_labels(dev_csv)
-test_texts, test_labels = get_text_labels(test_csv)
+train_texts, train_labels, train_prev_utterances, train_relations = get_text_labels(train_csv)
+dev_texts, dev_labels, dev_prev_utterances, dev_relations = get_text_labels(dev_csv)
+test_texts, test_labels, test_prev_utterances, test_relations = get_text_labels(test_csv)
 print(Counter(train_labels))
 
 # set up the tokenizer and tokenize the data
@@ -87,9 +103,9 @@ val_encodings = tokenizer(dev_texts, truncation=True, padding=True, return_atten
 test_encodings = tokenizer(test_texts, truncation=True, padding=True, return_attention_mask=True, pad_to_max_length=True)
 
 # set up the data as a dataset
-train_dataset = CustomDataset(train_encodings, train_labels)
-val_dataset = CustomDataset(val_encodings, dev_labels)
-test_dataset = CustomDataset(test_encodings, test_labels)
+train_dataset = CustomDataset(train_encodings, train_labels, train_texts, train_prev_utterances, train_relations)
+val_dataset = CustomDataset(val_encodings, dev_labels, dev_texts, dev_prev_utterances, dev_relations)
+test_dataset = CustomDataset(test_encodings, test_labels, test_texts, test_prev_utterances, test_relations)
 # set up the dataloader
 train_loader = DataLoader(train_dataset, batch_size=16, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=64, shuffle=True)
@@ -148,16 +164,18 @@ elif args.do_eval_and_save:
     model.load_state_dict(torch.load(args.dir_path + '/saved_models/finetuned_BERT_epoch_' + str(args.epoch_to_load) + '.model', map_location=torch.device('cpu')))
 
     model.eval()
+
+    label_dict = load_dict(args.dir_path + 'emotions_label-label_dict.npy')
     
     # evaluate the model and save the predictions so we can further analyze it later
     print("Evaluating the model")
     sys.stdout.flush()
-    val_loss, predictions, true_vals = evaluate(model, val_loader, device)
+    val_loss, predictions, true_vals = evaluate(model, val_loader, device, label_dict=label_dict, args=args)
     np.save(args.dir_path + '/results_emotion/val_predictions.npy', np.asarray(predictions))
     np.save(args.dir_path + '/results_emotion/val_true_values.npy', np.asarray(true_vals))
     val_f1 = f1_score_func(predictions, true_vals)
 
-    test_loss, test_predictions, test_vals = evaluate(model, test_loader, device)
+    test_loss, test_predictions, test_vals = evaluate(model, test_loader, device, label_dict=label_dict, args=args)
     np.save(args.dir_path + '/results_emotion/test_predictions.npy', np.asarray(test_predictions))
     np.save(args.dir_path +  '/results_emotion/test_true_values.npy', np.asarray(test_vals))
     test_f1 = f1_score_func(preds=test_predictions, labels=test_vals)
