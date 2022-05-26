@@ -163,7 +163,7 @@ def collate_fn(data):
 def run():
 
     # load Data
-    data_path = "/homes/sharm271/projects/darpa/mpdd"
+    data_path = "dir_path"
     dialogs_path = "{}/{}".format(data_path, "dialogue.json")
     dialogs = json.load(open(dialogs_path, "r"))
 
@@ -212,23 +212,20 @@ def run():
             param.requires_grad = False
 
     # callbacks
-    checkpoint_callback = ModelCheckpoint(dirpath="/homes/sharm271/scratch/saved_models/cultural_norms",
+    checkpoint_callback = ModelCheckpoint(dirpath="model_path", #model save dir
                                         filename="dsp_joint_ctxt",
                                         save_weights_only=True,
                                         save_top_k=1, mode="min", monitor="val_loss")
     early_stop_callback = EarlyStopping(monitor="val_loss", mode="min", patience=3)
 
     # loggings
-    tb_logger = pl_loggers.TensorBoardLogger(save_dir="/homes/sharm271/projects/darpa/logs/")
+    tb_logger = pl_loggers.TensorBoardLogger(save_dir="log_dir") #log dir
 
     # training
     trainer = pl.Trainer(max_epochs=100, logger=tb_logger, accelerator="gpu", gpus=1, precision=16, callbacks=[checkpoint_callback, early_stop_callback])
     trainer.fit(model, train_loader, val_loader)
-    # eval
 
-    # load best model
-    # model = EmoJDSP.load_from_checkpoint("/homes/sharm271/scratch/saved_models/cultural_norms/dsp_joint.ckpt")
-    # get results
+    # eval
     golds = []
     e_golds = []
     preds = []
@@ -275,7 +272,7 @@ def run():
 
 def pred():
      # load Data
-    data_path = "/homes/sharm271/projects/darpa/mpdd"
+    data_path = "dir_path"
     dialogs_path = "{}/{}".format(data_path, "dialogue.json")
     dialogs = json.load(open(dialogs_path, "r"))
 
@@ -297,7 +294,7 @@ def pred():
                             collate_fn=collate_fn)
 
     # load best model
-    model = EmoJDSP.load_from_checkpoint("/homes/sharm271/scratch/saved_models/cultural_norms/dsp_joint.ckpt")
+    model = EmoJDSP.load_from_checkpoint("model_path/dsp_joint.ckpt")
     model.eval()
     # save fn
     fns = {}
