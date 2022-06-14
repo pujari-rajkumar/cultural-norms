@@ -10,8 +10,18 @@ def get_utterance_emotion_tuples(all_data, data_split_keys):
     return_utterance_emotion = []
     for key in data_split_keys:
         all_utterances = all_data[key]
-        for utterance_dict in all_utterances:
-            return_utterance_emotion.append((utterance_dict['utterance'], utterance_dict['emotion']))
+        for i, utterance_dict in enumerate(all_utterances):
+            if i > 0:
+                prev_turn = all_utterances[i - 1]
+                listeners = [item['name'] for item in utterance_dict['listener']]
+                if prev_turn['speaker'] in listeners:
+                    lidx = listeners.index(prev_turn['speaker'])
+                    relation = utterance_dict['listener'][lidx]['relation']
+                else:
+                    relation = 'None'
+                previous_utterance = prev_turn['utterance']
+                
+                return_utterance_emotion.append((utterance_dict['utterance'], previous_utterance, relation, utterance_dict['emotion']))
     return return_utterance_emotion
 
 def get_relationship_prediction_tuples(all_data, data_split_keys):
@@ -44,15 +54,20 @@ def get_relationship_prediction_tuples(all_data, data_split_keys):
 
 def create_dict_for_pandas(given_utterances, label_int_dicts, header, keep_text_labels=True, label_idx=[-1]):
     out_df_list = []
+
     for df_counter, given_utterance in enumerate(given_utterances):
         sample_dict = {'id': df_counter}
+
         for key, item in zip(header, given_utterance):
             sample_dict[key] = item
+
+
         if not keep_text_labels:
             for id_,li_dict in zip(label_idx, label_int_dicts):
                 if type(id_) == int:
                     sample_dict[header[id_]] = li_dict[given_utterance[id_]]
                 else:
+                    print()
                     for id1 in id_:
                         sample_dict[header[id1]] = li_dict[given_utterance[id1]]
         out_df_list.append(sample_dict)
@@ -61,6 +76,7 @@ def create_dict_for_pandas(given_utterances, label_int_dicts, header, keep_text_
 
 def create_data_tsvs(data_tuples, dir_path, header, label_idx=[-1], prefix='', keep_text_labels=True, num_folds=-1):
     train_set, dev_set, test_set = data_tuples
+
 
     # get the labels so we can convert them to int later
     label_int_dicts = []
@@ -106,6 +122,8 @@ def create_data_tsvs(data_tuples, dir_path, header, label_idx=[-1], prefix='', k
     dev_df = create_dict_for_pandas(dev_set, label_int_dicts, header, keep_text_labels=keep_text_labels, label_idx=label_idx)
     test_df = create_dict_for_pandas(test_set, label_int_dicts, header, keep_text_labels=keep_text_labels, label_idx=label_idx)
 
+    # print(dev_df.head())
+
     # save the pandas dataframes and we will load these later in train_model.py
     train_df.to_csv(dir_path + prefix + 'train.tsv', sep='\t', index=False, header=True, columns=train_df.columns)
     dev_df.to_csv(dir_path + prefix + 'dev.tsv', sep='\t', index=False, header=True, columns=dev_df.columns)
@@ -138,8 +156,12 @@ if __name__ == "__main__":
 
     emotion_data_tuples = (emotion_train_set, emotion_dev_set, emotion_test_set)
 
-    emotion_header = ['text', 'label']
+
+    emotion_header = ['text', 'prev_utterance', 'relation', 'label']
     create_data_tsvs(emotion_data_tuples, dir_path, emotion_header, prefix='emotions_', keep_text_labels=False)
+
+
+
     #print(test_set)
 
     ### Relationship Prediction Dataset ###
