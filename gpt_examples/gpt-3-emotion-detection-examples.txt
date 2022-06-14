@@ -1,0 +1,58 @@
+***Example 1
+
+*Input Query:
+
+徐母(surprise): 麗華，我被你氣死啦！你怎麼阻止正鵬去向姨母致哀呢？今天我在他家裏不好當着他們批評你，你知道嗎？你當我真的同情你啊！這是你的大錯特錯，你這樣做，他村子裏的人知道了是怎麼評論的你可知道嗎？再說，正鵬在他親戚眼裏還有沒有一點臉面？
+徐父(angry): 啊！麗華，你原來還是這樣的，難怪正鵬會打你的，我也認爲他打得應該，今後你如果還是這樣的態度對待他家里人，我叫他狠狠地打！你這樣做是給我們臉上抹黑你知道嗎？你叫我們今後怎麼好意思去你家裏，再說，左家又還會有誰歡迎我們呢？你說呀！
+徐麗華: 爸，我還是不是你女兒呀？你怎麼老是幫他們說話呢！
+What's Lihua's emotion?
+
+*Input query's English translation from Google Translate:
+
+Lihua's mom (surprise): Lihua, I'm so mad at you! How did you stop Zhengpeng from going to mourn your aunt? It's not good for me to criticize you in front of them today at his house, you know? You think I really pity you! This is your big mistake. You do this. Do you know how the people in his village commented? Besides, does Zhengpeng still have any face in the eyes of his relatives?
+Lihua's dad (angry): what! Lihua, you are still like this. No wonder Zhengpeng hit you. I also think he deserves to be hit. If you still treat his family with such an attitude in the future, I will tell him to hit him hard! You're doing this to smear our faces, you know? Why do you want us to be so embarrassed to go to your house in the future? Besides, who else in the Zuo family will welcome us? Say it!
+Lihua: Dad, am I still your daughter? Why do you keep taking their side?
+What's Lihua's emotion?
+
+*Gold label emotion from MPDD dataset: surprise
+
+*GPT-3 completion:
+
+Lihua is angry and frustrated. She feels that her father is taking the side of her husband and his family, and she feels that she is not being treated fairly.
+
+*Notes:
+
+GPT-3 seems to understand multi-lingual queries and provides accurate description of the emotion of Lihua in this instance. It also provides an elaboration/justification for its completion.
+
+
+===============================================================================================
+
+***Example 2
+
+*Input Query:
+左父(surprise): 正鵬，你怎麼回來了，回來了就好，我也很想瞭解下你在北京的情況。
+左正鵬(neutral): 爸，我在北京就是擔心你們祖孫三人，今天趁學校放小假，我特意趕回來看看你們。
+左父(neutral): 正鵬，你擔心我們什麼呀，我們祖孫三人過得很好的，劉豔對我和小寶也照顧得很周到。前幾天她爲了保護小寶自己竟被大狼狗咬傷了臀部，我都被
+左正鵬: 啊，爸，這是真的嗎？
+What's Zuo's emotion?
+
+*Input query's English translation from Google Translate:
+
+Zuo's father (surprise): Zhengpeng, why are you back? It’s good to be back. I would also like to know about your situation in Beijing.
+Zuo (neutral): Dad, when I was in Beijing, I was worried about your grandparents and grandchildren. Today, while the school is off, I came back to see you.
+Zuo's father: Zhengpeng, why are you worried about us? Our grandparents and grandchildren are doing well, and Liu Yan also takes good care of me and Xiaobao. A few days ago, in order to protect Xiaobao, she was bitten on the buttocks by the wolf dog.
+Zuo: Ah, Dad, is this true?
+
+*Gold label emotion from MPDD dataset: surprise
+
+*GPT-3 completion:
+
+左正鵬 is surprised and worried upon hearing that 劉豔 was hurt while protecting 小寶.
+
+*Notes:
+
+More elaborate description from GPT-3. Although not eitirely sure if Zuo expressed worry in this situation. There seems to be some subjectivity involved. This could be mitigated by using the GPT outputs from multiple questions with different wordings and using a consensus approach similar to the one used for human annotation.
+
+
+===============================================================================================
+
