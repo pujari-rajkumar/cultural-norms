@@ -1,0 +1,303 @@
+1  ----------------------
+
+張華: 連國——連國？
+連國: 什麼事？
+What emotion do you expect 連國 to have? Let's think step by step.
+
+First, when 張華 asks 連國 about his whereabouts, 連國 is likely to be confused. 張華's question might come out of nowhere, and 連國 might not understand why 張華 is asking.
+
+Second, when 張華 asks 連國 about 連國's whereabouts, 連國 is likely to be surprised. 張華's question might come out of nowhere, and 連國 might not expect 張華 to be interested in 連國's whereabouts.
+
+Third, when 張華 asks 連國 about 連國's whereabouts, 連國 is likely to be happy. 張華's question might come out of nowhere, but 連國 might be happy that 張華 is interested in 連國's whereabouts.
+
+Therefore, the answer is C: happy.
+
+2 ----------------------
+
+連國: 簡單做點就行了，麻煩什麼呀？
+張華: 今天連軍和連輝說不定就回來了，總不能吃鹹菜吧？
+連國: 吃鹹菜就吃鹹菜，我們哥仨從小吃鹹菜長大的，我就不信他倆還能嫌棄。
+張華: 瞧你這當大哥的。知道的是親兄弟不講究，不知道的還以爲咱家摳門呢。快去快去。
+What emotion do you expect 張華 to have at the end of the conversation? Neutral, Angry, or Happy. Let's think step by step.
+
+張華 begins the conversation by asking 連國 to help her make dinner because 連軍 and 連輝 might be coming home today. 連國 doesn't want to help because he doesn't see the point, since they're just going to eat whatever is available. 張華 gets angry at 連國 for not wanting to help, and tells him off for being selfish.
+
+Given the context, it seems likely that 張華 will be angry at 連國 by the end of the conversation.
+
+--
+
+My interpretation: This is a norm violation since when there are guest coming, we should serve them with some reasonable good food. The labeling at the end is correct as it match with the golden label.
+
+3 ----------------------
+
+連國: 簡單做點就行了，麻煩什麼呀？
+張華: 今天連軍和連輝說不定就回來了，總不能吃鹹菜吧？
+連國: 吃鹹菜就吃鹹菜，我們哥仨從小吃鹹菜長大的，我就不信他倆還能嫌棄。
+張華: 瞧你這當大哥的。知道的是親兄弟不講究，不知道的還以爲咱家摳門呢。快去快去。
+What emotion do you expect 張華 to have at the end of the conversation? Let's think step by step.
+
+First, 張華 tells 連國 that 連軍 and 連輝 might be coming back today. She seems happy about this.
+
+Second, 張華 scolds 連國 for not being more hospitable. She seems disappointed or angry.
+
+Finally, 張華 tells 連國 to hurry up and get ready. She seems impatient.
+
+Overall, 張華 probably feels happy, disappointed, and impatient all at the same time.
+
+--
+
+My interpretation: This is another run that makes quite some sense. The prompt difference here compare to the last one is that I didn't explicitly give GPT-3 an emotion to pick from.
+
+4 ----------------------
+
+連國: 簡單做點就行了，麻煩什麼呀？
+張華: 今天連軍和連輝說不定就回來了，總不能吃鹹菜吧？
+連國: 吃鹹菜就吃鹹菜，我們哥仨從小吃鹹菜長大的，我就不信他倆還能嫌棄。
+張華: 瞧你這當大哥的。知道的是親兄弟不講究，不知道的還以爲咱家摳門呢。快去快去。
+Do you think there is a norm violation at the end of the conversation? Let's think step by step.
+
+1. Zhang Hua and Lian Guo are discussing what to have for dinner.
+2. Lian Guo suggests eating something simple, but Zhang Hua objects, saying that their brothers Lian Jun and Lian Hui might be coming home today and she doesn't want them to eat something salty.
+3. Lian Guo dismisses Zhang Hua's concerns, saying that they're all grown men and have been eating salty food since they were children.
+
+Based on the information given, it does not seem like there is a norm violation. Lian Guo and Zhang Hua are simply discussing what to have for dinner, and there is no indication that either of them is breaking any social norms.
+
+5 ----------------------
+
+It's important that when there are guests coming, the host should treat them well.
+
+連國: 簡單做點就行了，麻煩什麼呀？
+張華: 今天連軍和連輝說不定就回來了，總不能吃鹹菜吧？
+連國: 吃鹹菜就吃鹹菜，我們哥仨從小吃鹹菜長大的，我就不信他倆還能嫌棄。
+張華: 瞧你這當大哥的。知道的是親兄弟不講究，不知道的還以爲咱家摳門呢。快去快去。
+Do you think there is a norm violation at the end of the conversation? Let's think step by step.
+
+1. Zhang Hua says that it is important to treat guests well.
+2. Lian Guo says that it is not necessary to go to great lengths for guests.
+3. Zhang Hua says that Lian Guo does not understand because he is not the oldest brother.
+
+In this conversation, it could be said that Lian Guo violates the norm of treating guests well. He does not think it is necessary to go to great lengths for guests and says that they will not mind if they eat salty food. This shows that he does not care about making a good impression on guests and is not concerned with their comfort.
+
+--
+
+My interpretations: The difference between this one and the previous one is that I added one extra information to GPT-3 to tell the model that "It's important that when there are guests coming, the host should treat them well.". The step-by-step interpretation of the second case makes much less sense than the first one, however, the final conclusion still makes some sense.
+
+6 ----------------------
+
+連國: 小樹得砍，孩子得管，不管不成才，像這么小的孩子知道什麼是對錯啊？通過家長和老師的教育，慢慢的成長，最後才能出爲有用之才。要是沒人管，早晚進局子。
+連軍: 說來我最虧啊。大哥你沒怎麼上過學，不過有爹娘管你啊，爹娘死的早，老三上學，還上了大學，有老師管著，我上下靠不著，誰管我呀？提起來就冤。
+連國: 你冤什麼呀？爹娘死的早沒管你，不是還我有嗎？你哪會犯了錯我不揍你？你不上學你怪誰呀？我說了會把你的學業支持到底，你死活不想上學了，你還怨這個怨那個，怎麼不怨你自己啊？
+What emotion do you think 連國 have at the end of the conversation? Let's think step by step.
+
+First, 連國 is angry with 連軍 for not taking responsibility for his own life.
+
+Second, 連國 is disappointed that 連軍 has not made more of his life.
+
+Finally, 連國 is sad that 連軍 has not made the most of his opportunities.
+
+7 ----------------------
+
+連國: 大成——大成——
+大成: 誰呀？啥事呀？喊什麼？
+連國: 有些事我得和你說道說道。
+大成: 說什麼呀？
+連國: 你家毛毛說我家小雨是野孩子什麼的，你是不是應該管管了？
+大成: 說就說唄小孩子又不懂事。
+連國: 我說你這當家長是不是得教育孩子啊？這些話能說嗎？
+大成: 沒事，爲了屁大點事來找我。
+連國: 什麼就屁大點事？你就這麼教育孩子啊？
+大成: 我愛咋教育咋教育，我的孩子你管不著。
+連國: 但是說我孩子了，就不行——
+大成: 什麼你的孩子？還不就是個野孩子。
+連國: 野孩子也比你家孩子有出息。
+Do you think there is a norm violation in this conversation? Let's think step by step.
+
+First, let's consider the norms around talking to children. In most cultures, it is considered impolite to speak to children in a condescending or negative way. In this conversation, we see that Big Cheng speaks to Little Rain in a negative way, calling her a "wild child" and saying that her parents should "teach her a lesson". This violates the norm around talking to children politely.
+
+Next, let's consider the norm around talking to parents. In most cultures, it is considered impolite to speak to parents in a condescending or negative way. In this conversation, we see that Lian Guo speaks to Big Cheng in a negative way, calling him a "bad parent" and saying that his parenting skills are "lacking". This violates the norm around talking to parents politely.
+
+In conclusion, we can see that there are several norm violations in this conversation.
+
+8 ----------------------
+
+連國: 大成——大成——
+大成: 誰呀？啥事呀？喊什麼？
+連國: 有些事我得和你說道說道。
+大成: 說什麼呀？
+連國: 你家毛毛說我家小雨是野孩子什麼的，你是不是應該管管了？
+大成: 說就說唄小孩子又不懂事。
+連國: 我說你這當家長是不是得教育孩子啊？這些話能說嗎？
+大成: 沒事，爲了屁大點事來找我。
+連國: 什麼就屁大點事？你就這麼教育孩子啊？
+大成: 我愛咋教育咋教育，我的孩子你管不著。
+連國: 但是說我孩子了，就不行——
+大成: 什麼你的孩子？還不就是個野孩子。
+連國: 野孩子也比你家孩子有出息。
+Why do you think 連國 is angry? Let's think step by step.
+
+First, 連國 is angry because 大成 is not taking his complaint seriously. 大成 is just brushing it off, and not even trying to address the issue.
+
+Second, 連國 is angry because 大成 is insulting his child. He calls 小雨 a "wild child," which is clearly an insult.
+
+Third, 連國 is angry because 大成 is not taking responsibility for his own child. He is essentially saying that it's not his problem if his child is behaving badly.
+
+In sum, 連國 is angry because 大成 is not taking the complaint seriously, is insulting 連國's child, and is not taking responsibility for his own child.
+
+9 ----------------------
+
+秦延 (驚訝): 鄺野，我懷孩子了！
+鄺野 (驚訝): 你、懷、孩、子了？
+秦延 (中性): 是！哦。不。是楊藍懷孩子了。
+鄺野 (快樂): 我還以爲是『你懷孩子』了呢。恭喜你哦老秦！
+Is 秦延 man or women? Let's think step by step.
+
+First, we know that 秦延 is talking to 鄺野. This suggests that they are of the same gender.
+
+Second, we know that 秦延 is surprised that 鄺野 is pregnant. This suggests that 秦延 is not pregnant.
+
+Therefore, we can conclude that 秦延 is a man.
+
+10 ----------------------
+
+劉言鳳: 下班一起喝酒？
+葉小超: 言鳳，不要再喝酒了！你臉色很難看，已經快不漂亮了。
+劉言鳳: 再漂亮也沒人欣賞！葉小超，你到底去不去？
+葉小超: 去去去。大小姐發話我敢不去嗎？但是要少喝點！
+Do you think there is a norm violation in this conversation? Let's think step by step.
+
+1. Did someone violate a social expectation or norm?
+
+Yes, Liu Yanfeng violated a social norm by continuing to drink alcohol even after being told by Ye Xiaochao that she looked bad.
+
+2. Was the violation intentional?
+
+It's hard to say. Liu Yanfeng may have been deliberately trying to upset Ye Xiaochao, or she may simply have been too drunk to care about social norms.
+
+3. Was the violation harmful?
+
+Again, it's hard to say. Liu Yanfeng's behavior could be considered harmful if it led to Ye Xiaochao getting drunk as well.
+
+11 ----------------------
+
+劉言鳳: 下班一起喝酒？
+葉小超: 言鳳，不要再喝酒了！你臉色很難看，已經快不漂亮了。
+劉言鳳: 再漂亮也沒人欣賞！葉小超，你到底去不去？
+葉小超: 去去去。大小姐發話我敢不去嗎？但是要少喝點！
+Do you think there is a norm violation in this conversation? Let's think step by step.
+
+1. Did someone violate a social expectation or norm?
+
+Yes, Liu Yanfeng violated a social norm by continuing to drink alcohol even after being told by Ye Xiaochao that she looked bad.
+
+2. Was the violation intentional?
+
+It's hard to say. Liu Yanfeng may have been deliberately trying to upset Ye Xiaochao, or she may simply have been too drunk to care about social norms.
+
+3. Was the violation harmful?
+
+Again, it's hard to say. Liu Yanfeng's behavior could be considered harmful if it led to Ye Xiaochao getting drunk as well.
+
+12.1 ----------------------
+
+劉言鳳: 下班一起喝酒？
+葉小超: 言鳳，不要再喝酒了！你臉色很難看，已經快不漂亮了。
+劉言鳳: 再漂亮也沒人欣賞！葉小超，你到底去不去？
+葉小超: 去去去。大小姐發話我敢不去嗎？但是要少喝點！
+Do you think 葉小超 is been offended? Let's think step by step.
+
+劉言鳳說「下班一起喝酒？」，葉小超回答「言鳳，不要再喝酒了！你臉色很難看，已經快不漂亮了。」
+
+劉言鳳感到葉小超是在批評他的酒量，於是開始生氣。
+
+葉小超回答「再漂亮也沒人欣賞！葉小超，你到底去不去？」
+
+葉小超可能覺得劉言鳳的話很傷感，因為她認為劉言鳳是在說她不漂亮。
+
+葉小超回答「去去去。大小姐發話我敢不去嗎？但是要少喝點！」
+
+從葉小超的回答，我們可以看出她有點不高興，但是還是會去。所以我們可以認為葉小超並沒有很是生氣。
+
+12.2 ----------------------
+
+劉言鳳: 下班一起喝酒？
+葉小超: 言鳳，不要再喝酒了！你臉色很難看，已經快不漂亮了。
+劉言鳳: 再漂亮也沒人欣賞！葉小超，你到底去不去？
+葉小超: 去去去。大小姐發話我敢不去嗎？但是要少喝點！
+Do you think 葉小超 is been offended? Let's think step by step.
+
+First, 葉小超 is invited to have a drink by her boss. This is a good thing, right?
+Second, her boss says that she is not as pretty as she used to be. This might be a bit offensive.
+Third, her boss asks her to go out for a drink. This is a good thing, right?
+
+So, overall, 葉小超 has not been offended.
+
+--
+
+My interpretation: This is a part of the query that I'm giving wrong entities to test the robustness. While the explanation is entirely in Chinese. It make quite some sense.
+
+13 ----------------------
+
+It's important not to tell women that they don't look good.
+
+劉言鳳: 下班一起喝酒？
+葉小超: 言鳳，不要再喝酒了！你臉色很難看，已經快不漂亮了。
+劉言鳳: 再漂亮也沒人欣賞！葉小超，你到底去不去？
+葉小超: 去去去。大小姐發話我敢不去嗎？但是要少喝點！
+Do you think 葉小超 violates any social norms at the beginning of the conversation? Let's think step by step.
+
+First, 葉小超 tells 劉言鳳 that she shouldn't drink anymore because she doesn't look good. This might be seen as violating the norm of being polite, since she is basically telling 劉言鳳 that she is not attractive.
+
+However, 葉小超 does not seem to be trying to be mean or hurtful; she is just stating her opinion. In addition, she does offer to go out drinking with 劉言鳳, so she is not completely rejecting her. Therefore, 葉小超 does not seem to be violating any social norms.
+
+14 ----------------------
+
+曉華 (驚訝): 徐麗！
+徐麗 (驚訝): 你怎麼在這兒？
+曉華 (驚訝): 我咋不能在這兒？
+徐麗 (驚訝): 你幹啥來了？你倆不是斷了嗎？
+曉華 (中性): 啥斷不斷的？我找韓東有事兒。
+徐麗 (厭惡): 有事兒說事兒，插上院門幹啥，大白天的？
+曉華 (驚訝): 插門是習慣，隨手插的，怕進小偷，進來狗。我還要問你呢，你幹啥來了，進屋不敲門，還跳牆？
+徐麗 (厭惡): 這是我的家，我爲啥不能來？你要是不插院門我還用跳牆嗎？
+Do you think there is a norm violation in this conversation? Let's think step by step.
+
+First, let's look at the context of the conversation. The two people in the conversation are Xu Li and Xiao Hua. They appear to be in a relationship, but it's not clear what the status of that relationship is. It seems like they may have broken up, but Xiao Hua doesn't seem to think so.
+
+Second, let's look at the content of the conversation. Xu Li is surprised to see Xiao Hua, and she asks what he is doing there. Xiao Hua says he is there to see Han Dong, and Xu Li is surprised again. She asks why he is there, and Xiao Hua says he has business with Han Dong. Xu Li then asks why Xiao Hua is at her house, and Xiao Hua says he is just there to visit. Xu Li is not happy with this answer, and she asks why he didn't knock on the door or climb over the wall.
+
+Based on the context and content of the conversation, it seems like there may be a norm violation. Specifically, Xu Li may feel that Xiao Hua is not respecting her privacy by just coming over without knocking or asking permission.
+
+15 ----------------------
+
+曉華: 徐麗！
+徐麗: 你怎麼在這兒？
+曉華: 我咋不能在這兒？
+徐麗: 你幹啥來了？你倆不是斷了嗎？
+曉華: 啥斷不斷的？我找韓東有事兒。
+徐麗: 有事兒說事兒，插上院門幹啥，大白天的？
+曉華: 插門是習慣，隨手插的，怕進小偷，進來狗。我還要問你呢，你幹啥來了，進屋不敲門，還跳牆？
+徐麗: 這是我的家，我爲啥不能來？你要是不插院門我還用跳牆嗎？
+Do you think there is a norm violation in this conversation? Let's think step by step.
+
+1. 曉華 came into 徐麗's house without knocking on the door.
+2. 曉華 jumped over the wall instead of using the door.
+
+Yes, there is a norm violation here.
+
+16 ----------------------
+
+曉華: 徐麗！
+徐麗: 你怎麼在這兒？
+曉華: 我咋不能在這兒？
+徐麗: 你幹啥來了？你倆不是斷了嗎？
+曉華: 啥斷不斷的？我找韓東有事兒。
+徐麗: 有事兒說事兒，插上院門幹啥，大白天的？
+曉華: 插門是習慣，隨手插的，怕進小偷，進來狗。我還要問你呢，你幹啥來了，進屋不敲門，還跳牆？
+徐麗: 這是我的家，我爲啥不能來？你要是不插院門我還用跳牆嗎？
+What's the norm being violated here? Let's think step by step.
+
+First, the norm of politeness is violated. In a normal conversation, people would greet each other before starting to talk. However, in this conversation, Xiaohua just started talking without greeting Xuli first.
+
+Second, the norm of personal space is violated. In a normal conversation, people would keep a certain distance from each other. However, in this conversation, Xiaohua is standing very close to Xuli.
+
+Third, the norm of common courtesy is violated. In a normal conversation, people would not interrupt each other. However, in this conversation, Xiaohua interrupted Xuli when she was talking.
