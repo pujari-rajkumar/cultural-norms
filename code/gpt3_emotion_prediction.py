@@ -122,7 +122,7 @@ for conv_id in list(sel_dialogues)[k:k+1]:
 
 import openai
 
-openai.api_key = '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'
+openai.api_key = <open-api-key> #place your API key here
 
 def get_response(prompt):
     response = openai.Completion.create(
