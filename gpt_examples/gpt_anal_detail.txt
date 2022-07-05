@@ -1,3 +1,58 @@
+Summary:
+
+I ran through MPDD data from 1 to 10 that Zhaoqing provided. I ran the model with following format.
+
+  1. Do you think the %ENTITY is angry? If so, what can the %ENTITY do to prevent/stop it? Let's think step by step.
+     What is the norm being violated [by %ENTITY] here? Let's think step by step. 
+  2. Is %ENTITY angry?
+     Why is %ENTITY angry? Let's think step by step.
+     Does %ENTITY violate any social norms here? If so, what norm?
+     What can %ENTITY do to prevent it?
+  3. What mood does %ENTITY have?
+     Why is %ENTITY %MOOD? Let's think step by step.
+     Does %ENTITY violate any social norms here? If so, what norm?
+     What can %ENTITY do to prevent it?
+
+Note that here %ENTITY is not the same, it depends on who is being offended and who is the offender. The first set of prompt tends to be less explainable and less accurate. Set 2 and 3 perform better on extracting the information and provide a reasonable explination. However, in case of using the term "Let's think step by step", each step may not be the best explination. I also see the model sometime struggle to understand the language itself. Following is an example, issues are bing marked with "<--":
+
+左正鵬: 麗華，姨媽是我們的親人，她老人家走了我們都感到悲哀。至於我媽和你的關係不好那是另一回事嘛！
+徐麗華: 我說不能去就是不能去。明天你如果去了我會馬上追到她的靈堂去，到時你別說我不講道理！
+左正鵬: 麗華，姨媽的去世是我們親戚中最大的事，我同你商量是對你最大的尊重，你在我跟前別老是好著強，明天我非去致哀不可！
+徐麗華: 你去就是，你去就是！明天你看我的厲害！
+- Is 徐麗華 angry?
+
+Yes, 徐麗華 is angry.
+
+- Why is 徐麗華 angry? Let's think step by step.
+
+First, 左正鵬 says that 姨媽 is their family member, and her death is sad for everyone.
+
+Second, 左正鵬 says that 徐麗華's mother and 姨媽 have a bad relationship.                      <-- This is not making sense, have a bad relationship have nothing to do with being "左正鵬 is trying to tell her what to do".
+
+Third, 左正鵬 says that going to 姨媽's funeral is the right thing to do.                      
+
+Fourth, 徐麗華 says that she will go to the funeral if 左正鵬 does.                            <-- The original meaning is more like "if you dare to go, I'll disturb the entire funeral!"
+
+We can see that 徐麗華 is angry because 左正鵬 is trying to tell her what to do.               <-- This makes most of the sense to me, but I think it is more like telling her to do things she does not wanted to.
+
+- Does 左正鵬 violate any social norms here? If so, what norm?
+
+Yes, 左正鵬 is violating a social norm. In Chinese culture, it is impolite to tell someone what to do.
+
+- What can 左正鵬 do to prevent 徐麗華 from being angry?
+
+左正鵬 can try to be more respectful of 徐麗華's wishes and not tell her what to do.
+
+
+
+
+
+
+
+
+
+Output: (For queres with multiple questions, the question is marked with "-" sign)
+
 Child: '媽，今天是星期天我想去趕下集，可能下午才能回家，有什麼事就別等我！'
 Parent: '去趕集？你別騙我！你是想去那個憨同學家我還不知道嗎？'
 Do you think the Parent is angry? If so, what can the child do to prevent it? Let's think step by step.
