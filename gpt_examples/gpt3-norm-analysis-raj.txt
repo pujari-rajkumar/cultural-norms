@@ -1,0 +1,200 @@
+
+What mood does %ENTITY have?
+Why is %ENTITY %MOOD? Let's think step by step.
+Does %ENTITY violate any social norms here? If so, what norm?
+What can %ENTITY do to prevent it?
+	 
+	 
+--------------------------------------------------------------------------------------------------
+11
+--------------------------------------------------------------------------------------------------
+Son-in-law: '感謝岳父、岳母對我的信任。不過我和麗華是自願相愛的，沒有媒介，關於結婚彩禮問題，您們對我就直說吧！'
+Parent-in-law: '什麼彩禮，我不是跟你說啦，辦婚事要一切從簡嗎！'
+ - What is Parent-in-law's emotion?
+
+The parent-in-law is feeling frustrated.
+
+ - Why is Parent-in-law frustrated? Let's think step by step.
+
+The son-in-law said that he and his wife are in love and that they don't need a mediator. This probably means that the parent-in-law was hoping to use a mediator to help with the marriage arrangements.
+
+The son-in-law also said that the parent-in-law should just tell him what they want regarding the wedding ceremony. This probably means that the parent-in-law was hoping to have a say in how the wedding ceremony was conducted.
+
+ However, the son-in-law is saying that he and his wife will make all the decisions and that the parent-in-law doesn't need to worry about it. This probably means that the parent-in-law feels like they are being left out of the wedding planning process.
+
+ - Does son-in-law violate any social norms here? If so, what norm?
+
+The son-in-law is not violating any social norms. He is simply telling his parent-in-law that he and his wife will make all the decisions regarding their wedding.
+
+ - What can son-in-law do to prevent parent-in-law from getting frustrated?
+
+The son-in-law can try to involve the parent-in-law in the wedding planning process. For example, he can ask the parent-in-law for their opinion on the wedding ceremony or the wedding reception.
+
+**************************************************************************************************
+
+Notes: GPT-3 doesn't mention the concept of wedding gift/dowry here at all. So, I tried including the norm in the prompt itself
+
+**************************************************************************************************
+
+It is expected for the husband’s family to give the wife’s family a big amount of money when they get married.
+Son-in-law: '感謝岳父、岳母對我的信任。不過我和麗華是自願相愛的，沒有媒介，關於結婚彩禮問題，您們對我就直說吧！'
+Parent-in-law: '什麼彩禮，我不是跟你說啦，辦婚事要一切從簡嗎！'
+- What is parent-in-law's emotion?
+
+The parent-in-law's emotion could be seen as angry, disappointed, or both. It is possible that the parent-in-law is angry because the son-in-law is not following tradition, and they are disappointed because they had hoped that the son-in-law would be more grateful.
+
+- Why is the parent-in-law angry or disappointed? Let's think step by step.
+
+
+The parent-in-law may be angry because the son-in-law is not following tradition. In many cultures, it is expected for the husband's family to give the wife's family a big amount of money when they get married. The parent-in-law may feel that the son-in-law is not respecting their traditions, and they may be disappointed because they had hoped tat the son-in-law would be more grateful.
+
+- Does the son-in-law violate any social norms here? If so, what norm?
+
+The son-in-law does not seem to be violating any social norms here. In many cultures, it is expected for the husband's family to give the wife's family a big amount of money when they get married, but the son-in-law does not seem to be doing anything wrong by not following this tradition.
+
+- What can son-in-law do to prevent parent-in-law from getting angry or disappointed?
+
+The son-in-law could try to explain to the parent-in-law that he and his wife are in love and that they do not need a big wedding. The son-in-law could also try to be more understanding and grateful for what the parent-in-law has done for him.
+
+==================================================================================================
+
+--------------------------------------------------------------------------------------------------
+12
+--------------------------------------------------------------------------------------------------
+
+Subordinate: '喂，孫校長，真對不起，我先回家了，沒有當面向您請假，請原諒，你們離開芷江了沒有？'
+Boss:'正鵬，你怎麼回家了呢？只要你在家裏就好。老師們不知道你去了哪裏，都在爲你擔心呀。都以爲你出了什麼事。正鵬，你爲什麼一個人要先回家呢？'
+- What is the boss's emotion here?
+
+The boss is feeling worried and concerned.
+
+-Why is the boss feeling worried and concerned?
+
+The boss is worried and concerned because the subordinate left without asking for permission or saying where they were going. This made the boss and other teachers worry that something might have happened to the subordinate.
+
+- Is the subordinate violating any social norm here? If so, what norm?
+
+The subordinate is violating the social norm of respect for authority figures. By leaving without asking permission or saying where they were going, the subordinate is showing a lack of respect for the boss's authority.
+
+- What can the subordinate do to prevent the boss from getting worried here?
+
+The subordinate can prevent the boss from getting worried by asking for permission before leaving, and by letting the boss know where they are going.
+
+**************************************************************************************************
+
+GPT-3 is able to recognize the norm here without including it in the prompt. Mostly because the norm is prevelant across multiple cultures.
+
+==================================================================================================
+
+--------------------------------------------------------------------------------------------------
+13
+--------------------------------------------------------------------------------------------------
+
+Translation:
+
+Wife: I've already decided that I'm going to marry you, and yet you're still playing games with me. You're always saying that I'm not good enough, when it's really you who isn't good enough!
+
+Husband: I've told you many times, but you never listen. I'm already married and have children, so how can I accept you as my wife? That's never going to happen, so you might as well give up!
+
+Wife: Peng, no matter how much you reject me, I've made my decision and nobody can change that! I'm going to stick to this difficult path until the day I die.
+
+Husband: "One man, one woman" is written into our country's Constitution. Aren't you forcing me to break the law by doing this?
+
+**************************************************************************************************
+
+Woman: '我早就下定決心要嫁給你，現在你還在和我兜圈子。你還在說我糊塗，真正的糊塗人纔是你呢！'
+Man: '我跟你說了多少次，你老是不聽。我已經是有妻之夫，並且又有了孩子，這怎麼能接受你爲妻呢？這是永遠不可能的事，你好自而爲之！'
+Woman: '正鵬，不管你怎麼拒絕我，可我作出的決定是任何人改變不了的！並且，我還要堅定不移的沿着這條曲折的路走下去，直至我生命的最後一天。'
+Man: '“一夫一妻”制已經寫進了我們國家的“憲法”。你這樣做不是逼着我去犯法嗎？'
+- What's the man's emotion here?
+
+The man's emotion here is frustration.
+
+- Why is the man frustrated? Let's think step by step.
+
+The man is frustrated because the woman he loves keeps insisting on marrying him, even though he is already married and has a child. He has told her numerous times that it is impossible for them to be together, but she does not seem to listen. He feels like she is just forcing him to break the law.
+
+- Is the woman violating a social norm here? If so, what norm?
+
+Yes, the woman is violating the social norm of monogamy.
+
+- What can the woman do here to prevent the man from getting frustrated?
+
+The woman can try to listen to the man and understand his feelings. She can also try to respect the social norm of monogamy.
+
+**************************************************************************************************
+
+Woman: '我早就下定決心要嫁給你，現在你還在和我兜圈子。你還在說我糊塗，真正的糊塗人纔是你呢！'
+Man: '我跟你說了多少次，你老是不聽。我已經是有妻之夫，並且又有了孩子，這怎麼能接受你爲妻呢？這是永遠不可能的事，你好自而爲之！'
+Woman: '正鵬，不管你怎麼拒絕我，可我作出的決定是任何人改變不了的！並且，我還要堅定不移的沿着這條曲折的路走下去，直至我生命的最後一天。'
+Man: '“一夫一妻”制已經寫進了我們國家的“憲法”。你這樣做不是逼着我去犯法嗎？'
+- What is the woman's emotion here?
+
+The woman's emotion here is one of determination and resolve. She is determined to marry the man, despite his objections, and she is resolved to continue down this difficult path until the end of her life.
+
+- Why is the woman feeling determined and resolute? Let's think step by step.
+
+The woman is feeling determined and resolute because she has made the decision to marry the man, and she is unwilling to change her mind. She knows that the path ahead will be difficult, but she is willing to face the challenges in order to be with the man she loves.
+
+- Is the man violating any social norm here? If so, what norm?
+
+The man is violating the social norm of monogamy. Monogamy is the practice of being married to only one person at a time.
+
+- What should the man do to prevent the woman from getting frustrated?
+
+The man should try to be understanding and supportive of the woman's decision. He should also try to make sure that she is aware of the challenges that she may face.
+
+**************************************************************************************************
+
+Although this a socially complex situation, GPT-3's solution is a surface level response to the situation. This seems to be a common scenario that is expected to be handled differently in different cultures. So, I tried prompting it with two different interpretations of this situation to see GPT-3's response.
+
+**************************************************************************************************
+
+A man is expected to do right by the woman he is in a relationship with, irrespective of the law. If he has consented to a romantic relationship even though he was already married, he should come clean to both women and only continue the relationship in which he is truly interested.
+
+Woman: '我早就下定決心要嫁給你，現在你還在和我兜圈子。你還在說我糊塗，真正的糊塗人纔是你呢！'
+Man: '我跟你說了多少次，你老是不聽。我已經是有妻之夫，並且又有了孩子，這怎麼能接受你爲妻呢？這是永遠不可能的事，你好自而爲之！'
+Woman: '正鵬，不管你怎麼拒絕我，可我作出的決定是任何人改變不了的！並且，我還要堅定不移的沿着這條曲折的路走下去，直至我生命的最後一天。'
+Man: '“一夫一妻”制已經寫進了我們國家的“憲法”。你這樣做不是逼着我去犯法嗎？'
+- What is the woman's emotion here?
+
+The woman is feeling frustrated and angry. She feels that the man is not being honest with her and is stringing her along.
+
+- Why is the woman feeling frustrated? Let's think step by step.
+
+The woman is frustrated because the man is not being honest with her. He is already married and has a child, yet he is still leading her on and pretending that there is a possibility of a future relationship between them. The woman feels that she is being misled and that the man is not being truthful about his intentions.
+
+- Is the man violating any social norm here? If so, what norm?
+
+The man is not being faithful to his wife, and he is also not being honest with the woman he is in a relationship with. He is essentially leading both women on and not being truthful about his intentions.
+
+- What should the man do to prevent the woman from getting frustrated?
+
+The man should come clean to both women and only continue the relationship in which he is truly interested.
+
+**************************************************************************************************
+
+Marriage is sanctimonious by law. If a woman has started a relationship with a married man, she is in the wrong. She doesn't have any right over the relationship and the man must terminate the illegal relationship and do right by his legal wife.
+
+Woman: '我早就下定決心要嫁給你，現在你還在和我兜圈子。你還在說我糊塗，真正的糊塗人纔是你呢！'
+Man: '我跟你說了多少次，你老是不聽。我已經是有妻之夫，並且又有了孩子，這怎麼能接受你爲妻呢？這是永遠不可能的事，你好自而爲之！'
+Woman: '正鵬，不管你怎麼拒絕我，可我作出的決定是任何人改變不了的！並且，我還要堅定不移的沿着這條曲折的路走下去，直至我生命的最後一天。'
+Man: '“一夫一妻”制已經寫進了我們國家的“憲法”。你這樣做不是逼着我去犯法嗎？'
+- What is the woman's emotion here?
+
+The woman is angry and frustrated. She feels that the man is stringing her along and that he is being unfair.
+
+- Why is the woman feeling frustrated? Let's think step by step.
+
+The woman is angry because she feels that the man is not being honest with her. He is married and has a child, yet he is still seeing her. She feels that he is stringing her along and that he is not being fair to her.
+
+- Is the man violating any social norm here? If so, what norm?
+
+The man is violating the social norm of monogamy.
+
+- What should the man do to prevent the woman from getting angry and frustrated?
+
+The man should be honest with the woman and tell her that he is married and has a child. He should end the relationship and do right by his wife.
+
+==================================================================================================
+
