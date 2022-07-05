@@ -198,3 +198,136 @@ The man should be honest with the woman and tell her that he is married and has 
 
 ==================================================================================================
 
+--------------------------------------------------------------------------------------------------
+14
+--------------------------------------------------------------------------------------------------
+
+Teacher: 'Zuo Zhengpeng, I am who, now you see it clearly!'
+Student: 'Professor Chen, Miss Liu, it's so late, what are you doing in my house, is there anything wrong with the school?'
+
+**************************************************************************************************
+
+Teacher: '左正鵬，我是誰，現在你看清楚了吧！'
+Student: '陳主任，劉豔同學，天這麼晚了你倆來我家有什麼事，學校是不是發生了什麼事？'
+
+- What is the student's emotion?
+
+The student's emotion is fear.
+
+- Why is the student afraid?
+
+The student is afraid because the teacher and another student have come to their home late at night. This may be an indication that something has happened at school.
+
+- Is the teacher violating any social norm here? If so, what norm?
+
+The teacher is violating the social norm of appropriate time and place for a conversation. This is not an appropriate time or place for a discussion.
+
+- What can the teacher do to prevent the student from being afraid?
+
+The teacher can try to reassure the student that they are not in any trouble and that they just want to talk. The teacher can also explain why they are there at that time.
+
+**************************************************************************************************
+
+GPT-3 is able to understand the scenario and the norm sufficiently. This seems to be a common scenario across cultures.
+
+==================================================================================================
+
+--------------------------------------------------------------------------------------------------
+15
+--------------------------------------------------------------------------------------------------
+
+Teacher: 'Is Mr. Chen home? This is Yang Wei.'
+Student: 'It's Sunday today, why aren't you playing in the park? Do you need something from me?'
+
+**************************************************************************************************
+
+Teacher: '陳主任在家嗎？我是楊偉。'
+Student: '今天是星期天，你不上公園去玩？找我有事嗎？'
+ 
+- What's the student's student's emotion here?
+
+The student's emotion here is one of confusion. The student is confused as to why the teacher is looking for them on a Sunday, and wonders if there is something wrong.
+
+- Why is the student confused?
+
+The student is confused because the teacher is looking for them on a Sunday, which is usually a day off from school. The student wonders if there is something wrong.
+
+- Is the teacher violating any social norm here? If so, what norm?
+
+The teacher is violating the social norm of personal space by looking for the student on a Sunday.
+
+- What can the teacher do to prevent the student from being confused?
+
+The teacher can explain why they are looking for the student on a Sunday.
+
+==================================================================================================
+
+
+--------------------------------------------------------------------------------------------------
+16
+--------------------------------------------------------------------------------------------------
+
+The teachers at your kindergarten are like your mothers and they care about you very much. You should listen to them.
+Can I call them my mothers?
+No, you cannot!
+
+**************************************************************************************************
+
+Parent: '小寶，幼兒園的老師像媽媽一樣關心你，你一定要聽她們的話嘍）'
+Child: '爸，我能叫她媽媽嗎？'
+Parent: '那可不行！'
+ 
+- What's the parent's emotion here?
+
+The parent is angry here.
+
+- Why is the parent angry here? Let's think step by step.
+
+The parent is angry because the child wants to call the teacher "mom." The parent feels that the child is disrespecting them.
+
+- Is the child violating any social norm here? If so, what norm?
+
+
+
+The child is violating the social norm of respect for elders.
+
+- What can the child do to prevent the parent from getting angry here?
+
+The child can apologize to the parent and explain that they did not mean to disrespect them. The child can also promise to be more respectful in the future.
+
+==================================================================================================
+
+
+--------------------------------------------------------------------------------------------------
+17
+--------------------------------------------------------------------------------------------------
+
+My colleague A is asking if I want to see the love letter she just wrote to her crush, colleague B. Colleague B is telling her no, she can't see it because it's private.
+
+**************************************************************************************************
+
+Colleague A: '是我剛纔給左正鵬同學寫的，還未寄出去！'
+Colleague B: '哎呀，你還在追求他呀？'
+Colleague A: '是的，你想看看嗎？'
+Colleague B: '你倆的情書我怎能看，不看，不看！'
+ - What is colleague B's emotion here?
+
+Colleague B is feeling embarrassed and uncomfortable.
+
+- Why is colleague B feeling embarrassed?
+
+Colleague B feels embarrassed because Colleague A is still pursuing Colleague B, even though Colleague B has already rejected Colleague A's advances.
+
+- Is colleague A violating any social norms here? If so, what norm?
+
+Colleague A is violating the social norm of personal space.
+
+- Can colleague A do anything to prevent colleague B from feeling uncomfortable?
+
+Colleague A can try to respect Colleague B's personal space and refrain from discussing intimate matters.
+
+**************************************************************************************************
+
+Not sure if A is pursuing B or just teasing her to show the letter. This might be an error.
+
+==================================================================================================
