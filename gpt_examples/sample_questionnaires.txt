@@ -1,0 +1,83 @@
+1194: siblings
+
+張愛(surprise): 通知子明瞭嗎？
+張心(neutral): 通知了。他這會大概已經到了吧？
+張愛(neutral): 那我們就快點吧？
+張心(disgust): 看你那急樣！
+ 
+- What is 張心's emotion here?
+
+張心 is feeling neutral.
+
+- Did 張愛 violate any social norm? If so, what norm? 
+
+張愛 violated the social norm of not being patient.
+
+- If they switched roles, would the social norm still be violated?
+
+If they switched roles, the social norm would still be violated.
+
+- Does this interaction affect their relationship in the long term?
+
+This interaction does not affect their relationship in the long term.
+
+=================================================================================================
+
+910: siblings
+
+張愛(surprise): 媽她怎麼了？
+張心(disgust): 你問我我問誰啊？
+張愛(surprise): 你剛纔不是問她了嗎？
+張心(disgust): 你以爲我是誰啊？我問她就一定說啊？真是！。說不定就是因爲某些人呢！
+ 
+- What is 張心's emotion here?
+
+張心 is disgusted by 張愛's question.
+
+- Did 張愛 violate any social norm? If so, what norm? 
+
+張愛 may have violated the social norm of being respectful to elders.
+
+- If they switched roles, would the social norm still be violated?
+
+If they switched roles, the social norm would still be violated.
+
+- Does this interaction affect their relationship in the long term?
+
+This interaction may affect their relationship in the long term.
+
+=================================================================================================
+
+688: parent-child
+
+宋喬(surprise): 才吃那麼點就飽了啊？
+張愛(neutral): 恩。
+張心(disgust): 他們不吃我們吃！切！有什麼了不起的！
+宋喬(angry): 我說你能不能少說兩句呀？安靜一會行不？
+
+- What is the emotion of 宋喬  here?
+
+The emotion of 宋喬  here is angry.
+
+- Was 張心 the primary reason for 宋喬 being angry?
+
+Yes, 張心 was the primary reason for 宋喬 being angry.
+
+- Did 張心 violate any social norm here? If so, which norm?
+
+Yes, 張心 violated the social norm of not interrupting others while they are speaking.
+
+- If the roles were reversed, would the social norm still be violated? Would 張心 have gotten angry?
+
+Yes, the social norm would still be violated if the roles were reversed, and 張心 would have gotten angry.
+
+-What is the relationship between 張心 and 宋喬?
+
+The relationship between 張心 and 宋喬 is not clear from the conversation.
+
+- Does this conversation affect their relationship in the long term?
+
+This conversation does not seem to affect their relationship in the long term.
+
+=================================================================================================
+
