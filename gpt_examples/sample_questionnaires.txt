@@ -81,3 +81,33 @@ This conversation does not seem to affect their relationship in the long term.
 
 =================================================================================================
 
+3741
+
+馬軍(disgust): 我跟他說了，年底前一定還。
+馬寶林(angry): 現在能還就現在還，爲啥非等到年底呢？
+
+- What is the emotion of 馬寶林  here?
+
+The emotion of 馬寶林  here is angry.
+
+- Was 馬軍 the primary reason for 馬寶林 being angry?
+
+Yes, 馬軍 was the primary reason for 馬寶林 being angry.
+
+- Did 馬軍 violate any social norm? If so, which norm?
+
+Yes, 馬軍 violated the social norm of repaying a debt in a timely manner.
+
+- If the roles were reversed, would the social norm still be violated? Would 馬軍 have gotten angry?
+
+Yes, the social norm would still be violated, and 馬軍 would have gotten angry.
+
+- What is the relationship between 馬軍 and 馬寶林?
+
+The relationship between 馬軍 and 馬寶林 is not specified.
+
+- Could this conversation affect their relationship in the long term?
+
+Yes, this conversation could affect their relationship in the long term.
+
+=================================================================================================
