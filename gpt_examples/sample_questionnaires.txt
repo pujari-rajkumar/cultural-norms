@@ -111,3 +111,60 @@ The relationship between 馬軍 and 馬寶林 is not specified.
 Yes, this conversation could affect their relationship in the long term.
 
 =================================================================================================
+
+2837
+
+學清(angry): 猴子也被抓了，你說你都在做什麼啊？
+天強(disgust): 別說我啊，和我沒關係。
+學清(angry): 我不說你，我說誰啊？你根本就不是做生意的料。不然公司我早交給你了。
+天強(angry): 你不交給我你怎麼知道我不是做生意的料？
+學清(angry): 瞧你這樣吧。除了吃喝玩樂你還會做什麼？——我給你家開家小店鋪，你老老實實做生意，先從小事做起。
+天強(happiness): 小店鋪，有什麼意思啊？爸，你也老了，身體又不好，乾脆把公司都交給我吧，我保證把公司管理的好好的。每年都賺很多錢行了嗎？
+學清(angry): 你以爲管理家公司那麼容易啊？你還差的遠呢？你得先從底層做起，慢慢都學會了，我自然會把公司給你。
+天強(angry): 別唬我了，你肯定是想把公司給天天，讓那個孫連輝管理，你以爲我不知道？
+學清(angry): 你說什麼？你……連輝他……他再怎麼着也比你強。
+天強(angry): 在你眼裏誰都比我強，我他媽就是個廢物。
+學清(angry): 是你自己不爭氣！不學無術，遊手好閒，你還想回去坐牢是不是？趕緊走回正道，老老實實做人，別想些歪門邪道，等老了你就後悔了。
+天強(angry): 我不後悔——我就喜歡吃喝玩樂，什麼好吃我吃什麼，什麼好玩我玩什麼？怎麼了？我就這樣了，要麼你別認我這個兒子。
+學清(angry): 你個——你個畜生，你氣死我了。老六——停，停車。
+天強(angry): 不許停，繼續開——
+
+- What is 天強's emotion here?
+
+
+天強's emotion in this scene is anger.
+
+- Was 學清 the primary reason for 天強 being angry?
+
+
+ yes
+
+- Did 學清 violate any social norm? If so, which norm?
+
+
+
+學清 violated the social norm of filial piety.
+
+- Did 天強 violate any social norm? If so, which norm?
+
+天強 violated the social norm of filial piety.
+
+- What is the relationship between 天強 and 學清?
+
+
+
+天強 and 學清 are father and son.
+
+- If the roles were reversed, would the social norm still be violated?
+
+
+
+If the roles were reversed, the social norm of filial piety would still be violated.
+
+- Could this conversation affect their relationship in the long term? How?
+
+
+
+This conversation could affect their relationship in the long term because 天強 is angry with 學清 for trying to control his life.
+
+=================================================================================================
