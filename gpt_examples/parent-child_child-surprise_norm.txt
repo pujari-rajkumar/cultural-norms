@@ -1,0 +1,280 @@
+Parent should support their children.
+徐母: 正鵬，前次我告訴你倆今後不要再吵架了，誰知只隔幾天時間你們又吵起來了，真是太丟人了。這次你倆到底又是爲了什麼事快跟我說清楚！
+左正鵬: 岳母，你問問她自己吧！
+徐母: 她早就跟我說了，講你要到芷江去旅遊是不是？現在你家裏沒有錢還旅什麼遊嘍，你也真是的！
+左正鵬: 岳母呀！這是學校組織的政治學習，孫校長要求老師們都去，我能不去嗎？
+徐母: 啊！原來是這樣？麗華，這就是你的不對了，學校組織的政治學習，正鵬當然要參加嘛，你怎麼能干涉他呢？我打死你不可，原來你跟我匯的是假報——說他是去遊山玩水，我認爲是真的呢！
+徐麗華: 媽，這明顯是他的錯，你怎麼還爲他辯護呢？ !!!
+徐母: 傻閏女，這怎麼是他錯了呢？事實勝於雄辯嘛！你可知道“芷江受降紀念坊”是什麼地方嗎？它是中國人民打敗日本帝國主義，我國人民爲它舉行紀唸的地方，你知道嗎？
+徐麗華: 媽，他們是打着政治旗號去遊山玩水的呀！
+徐母: 你還在絞辯是嗎？他們去芷江“受降紀念坊”參觀學習叫做紅色旅遊你知道嗎？你這種社會見識都沒有，怪不得你經常和正鵬吵架！
+徐麗華: 媽，什麼叫做紅色旅遊？ !!!
+徐母: 紅色旅遊就是有革命歷史意義，值得後人學習紀唸的地方。
+徐母: 你看，她理虧還要翹“尾巴”呢！正鵬你不要和她一般見識啊，這次你就原諒她，看她今後又會怎樣。中國有句古話：叫着“讓老婆，同自在”她的個性不好，這是沒有辦法的事。
+徐麗華: 媽，你住一夜再走吧！
+徐母: 我沒有好心情在你家裏住！
+
+Why is 徐麗華 surprised?
+
+徐麗華 is surprised because her mother is defending her husband instead of her.
+
+Is there a norm violation between 徐麗華 and 徐母?
+
+There may be a norm violation between 徐麗華 and 徐母 if 徐母 continues to defend 左正鵬 despite 徐麗華's protests.
+
+
+徐母: 麗華，我被你氣死啦！你怎麼阻止正鵬去向姨母致哀呢？今天我在他家裏不好當着他們批評你，你知道嗎？你當我真的同情你啊！這是你的大錯特錯，你這樣做，他村子裏的人知道了是怎麼評論的你可知道嗎？再說，正鵬在他親戚眼裏還有沒有一點臉面？
+徐父: 啊！麗華，你原來還是這樣的，難怪正鵬會打你的，我也認爲他打得應該，今後你如果還是這樣的態度對待他家里人，我叫他狠狠地打！你這樣做是給我們臉上抹黑你知道嗎？你叫我們今後怎麼好意思去你家裏，再說，左家又還會有誰歡迎我們呢？你說呀！
+徐麗華: 爸，我還是不是你女兒呀？你怎麼老是幫他們說話呢！ !!!
+徐母: 老伴，你就別見人落井下石啦，自己的閨女我們不是不知道，今後叫她注意點就行了，以前我說孃家就是女兒的“根據地”現在看來可不能這麼說了，過幾天叫她回去就是！
+徐麗華: 媽，我們做女人的好難啊！從孃家走到婆家，是女人人生里程的轉折點，誰知婆家有很多事情與我在孃家不一樣，我真是適應不了！
+徐父: 傻閨女，你在孃家還是黃花閨女，成天過着無憂無慮的生活，有父母這棵大樹爲你遮風擋雨；可是你結了婚，就要扛起家庭的大梁，爲自己的小日子奔波操勞，這當然不一樣嗎！今後你一定要改改個性，不然會要出事的呀！
+Why is 徐麗華 surprised?
+
+徐麗華 is surprised because she did not expect her father and mother to take the side of her husband's family. She thought they would understand her situation and sympathize with her.
+
+
+左正鵬: 爸，您們來了，小寶怎麼沒有來？
+劉豔: 學校雖然放假了，但小寶還要補課，所以他沒有來。
+左正鵬: 他是個殘疾人你們把他一個人丟在家裏，你們放心嗎？你們這樣做對得起我嗎？劉豔，你趕快坐飛機回去將小寶帶過來讓我看看！ !!!
+小寶: 爸爸，我在這裏呢！你怎麼不看見，簡直是瞎問！
+左正鵬: 劉豔，這到底是怎麼一回事，小寶怎麼一下子會走路了，我爲他還專門買來了一輛輪椅車呢！
+左父: 正鵬，不瞞你說，小寶今天之所以能夠走路，不是一下子的事情，而是很多下子的事你知道嗎？
+小寶: 爸，你看，現在我既能跑又能跳啦！今年“六一”我還參加了學校的拔河比賽呢。
+左正鵬: 劉豔，你們是什麼時候到什麼醫院把小寶的腿治好了？
+左父: 兒子呀！多虧了劉豔的關心，今年二月是她和我將小寶帶到上海第一人民醫院找美國專家康本寧大夫給他治好的。
+小寶: 康爺爺說我的腿是以前那個醫生給我的骨骼接錯位了。
+劉豔: 是的，當時我們大家都沒有意識到這一點，讓小寶活活的受了幾年罪！
+左正鵬: 你們帶小寶去上海爲什麼不打電話告訴我一聲？ !!!
+劉豔: 這又不是挑擔子的事，我們能夠應酬下來，不必告訴你，如果你知道了會影響你的學習，你說對不對？
+左正鵬: 劉豔呀！你不是小寶的親媽，但是你已經勝過他親媽的百倍，千倍，你這偉大的母愛彰顯了天下養母的無限親情。
+劉父: 正鵬，你這在幹什麼？小寶是你的骨肉，不也是我閨女的兒子嗎，這些事都是我們應該做的事，只要小寶能走路了不管做什麼我們都願意。
+左父: 哎喲，你的閨女太好了！
+小寶: 爸，今天你對我感到太意外了吧！其實，這是件很正常的事，可是，您只知道給我買輪椅車，而不知道去想辦法讓我去離開輪椅車，你看，媽媽和您就不一樣了！
+
+
+張一榮: 好，你們先回去。
+宋喬: 小愛，媽那天跟你說的你都忘了嗎？
+張愛: 我沒忘！可是，媽，我真的想上技校。我相信，爸他一定會同意的。
+宋喬: 你呀！什麼時候才能明白我和你爸的苦心啊？
+張愛: 我明白啊！你們不就是希望我考上重點高中，再上個好大學嘛？
+宋喬: 知道就好！
+張愛: 可是，媽，我真的。
+宋喬: 好了！這事我當你沒說過。你也不許在你爸跟前說起。聽見沒有？
+張愛: 我。
+宋喬: 我問你聽到沒有？
+張愛: 聽到了。
+宋喬: 聽到就好！你這孩子，整天不好好上學，都這些沒有用的幹什麼？
+Is there a norm violation between the parent and the child?
+
+Yes, there is a norm violation between the parent and the child. The child wants to go to a vocational school, but the parent wants the child to go to a regular high school and then a good college.
+
+
+
+
+
+Parents should let the children know important things and critical changes.
+村姑: 麗華，這次你成了大城市的人啦，今後別忘了我們鄉里的泥腿子！
+堂弟: 村姑，你胡說什麼，別人是沒辦法了，你還開着這玩笑。
+小寶: 爸，我們今天是去哪兒？老實站在這裏幹什麼？ !!!
+左正鵬: 小寶，等下你就知道了！
+小寶: 我要爸爸，我要媽媽！
+左正鵬: 小寶，別哭，聽話啊！跟爺爺好好過日子，爸爸會來看你的，晚上千萬別尿牀啊！
+
+Is there a norm violation between 小寶 and 左正鵬?
+
+There is a norm violation between 小寶 and 左正鵬 because 左正鵬 is telling 小寶 to do something that 小寶 does not want to do.
+
+Is there a norm violation between the parent and the child?
+
+There is a norm violation between the parent and the child because the parent is not present with the child.
+
+
+
+左正鵬: 麗華，你怎麼啦，哪裏不舒服，你爲什麼躺在牀上，這是怎麼回事？你說呀！你跟我快快說呀！ !!!
+左正鵬: 麗華，你怎麼不會說話了？你患的是什麼病呀？ !!!
+左正鵬: 我在學校有天晚上眼皮跳得厲害，心神不安，怎麼也睡不着，誰知道這就是你發生這件事的預兆呀！
+左母: 正鵬，你就別哭了。這都是兩個月前的事了。
+左正鵬: 媽，當時你們爲什麼不告訴我，是誰叫你們瞞着我的呀？
+左正鵬: 媽，你們這些人的心腸好毒辣呀！她病成這樣了，你們還瞞着我，是誰叫你們這樣做的，我饒不了他！我若早點知道把她送到大醫院去治療，也不至於她今天會癱在牀上，哎喲，我的可憐妻子，我的心肝寶貝，我對不起你呀！我的心好疼的……
+左母: 正鵬，不是我們心狠，故意瞞着你不說，我們也考慮了，怕影響你的學習，反正你快要放暑假了。
+左正鵬: 媽，學習比妻子的生命還重要嗎？假如她有了三長兩短的話，我讀大學還有什麼意義？我上大學還不是爲了妻子，爲了孩子嗎？麗華呀！你在家裏孝敬公婆，養育孩子，含辛茹苦，使你患病致殘，你說我今後應該怎樣去做才能對得起你呀！從今往後，我倆不能再用語言交流了，你不能和我肩並肩走路了。我的工作失去了你的支撐。我的拼搏失去了後盾力量，哎喲喲，我的心如萬箭穿心呀……老天爺，你怎麼不長眼，我的家經受不了再次折騰了。
+村姑: 正鵬，你回來了，回來了就好，你家裏發生了這麼大的事，你在學校眼皮都沒有跳過？
+左正鵬: 村姑，你就別問了，反正這事已經過去很久了，感謝你對我麗華的照顧和關心。
+左正鵬: 這都是去年的事了，你也病糊塗了。春節我回家不是跟你說過了已經收到了！
+
+Why is 左正鵬 surprised?
+
+左正鵬 is surprised because he was not told about his wife's illness until after she was hospitalized.
+
+左正鵬: 爸，您們來了，小寶怎麼沒有來？
+劉豔: 學校雖然放假了，但小寶還要補課，所以他沒有來。
+左正鵬: 他是個殘疾人你們把他一個人丟在家裏，你們放心嗎？你們這樣做對得起我嗎？劉豔，你趕快坐飛機回去將小寶帶過來讓我看看！
+小寶: 爸爸，我在這裏呢！你怎麼不看見，簡直是瞎問！
+左正鵬: 劉豔，這到底是怎麼一回事，小寶怎麼一下子會走路了，我爲他還專門買來了一輛輪椅車呢！
+左父: 正鵬，不瞞你說，小寶今天之所以能夠走路，不是一下子的事情，而是很多下子的事你知道嗎？
+小寶: 爸，你看，現在我既能跑又能跳啦！今年“六一”我還參加了學校的拔河比賽呢。
+左正鵬: 劉豔，你們是什麼時候到什麼醫院把小寶的腿治好了？
+左父: 兒子呀！多虧了劉豔的關心，今年二月是她和我將小寶帶到上海第一人民醫院找美國專家康本寧大夫給他治好的。
+小寶: 康爺爺說我的腿是以前那個醫生給我的骨骼接錯位了。
+劉豔: 是的，當時我們大家都沒有意識到這一點，讓小寶活活的受了幾年罪！
+左正鵬: 你們帶小寶去上海爲什麼不打電話告訴我一聲？
+劉豔: 這又不是挑擔子的事，我們能夠應酬下來，不必告訴你，如果你知道了會影響你的學習，你說對不對？
+左正鵬: 劉豔呀！你不是小寶的親媽，但是你已經勝過他親媽的百倍，千倍，你這偉大的母愛彰顯了天下養母的無限親情。
+劉父: 正鵬，你這在幹什麼？小寶是你的骨肉，不也是我閨女的兒子嗎，這些事都是我們應該做的事，只要小寶能走路了不管做什麼我們都願意。
+左父: 哎喲，你的閨女太好了！
+小寶: 爸，今天你對我感到太意外了吧！其實，這是件很正常的事，可是，您只知道給我買輪椅車，而不知道去想辦法讓我去離開輪椅車，你看，媽媽和您就不一樣了！
+
+Is there a norm violation between 左正鵬 and 左父?
+
+Yes, there is a norm violation between 左正鵬 and 左父. 左正鵬 is upset because 左父 did not tell him that 小寶 was going to be treated by 康本寧大夫 in Shanghai. 左父 did not tell 左正鵬 because he did not want to disrupt his studies.
+
+馬父: 哎喲，好大的一條魚被你們嚇跑了，你們講話聲音輕點好嗎！
+馬母: 你胡說什麼，哪裏有條魚被我們嚇跑了？你差點兒被它吃掉了還不知道呢！
+馬父: 老婆子，小娟還在長沙小龍那裏，或是回到上海來了？我想見見她，我有話對她說。
+馬母: 喂！小娟你在哪裏？
+馬小娟: 媽，我在湘雅醫院陪外婆住院。
+馬母: 閨女，外婆哪裏不舒服住進醫院啦？
+馬小娟: 那天夜裏她上廁摔斷了大腿骨，現在正在醫院治療。
+馬母: 啊……那好吧，你陪陪她老人家也好。
+馬父: 老婆，我住院的事你就別瞞着閨女了，我只有她這一根獨苗，我很想見見她。
+馬母: 好！我一定告訴她，叫她馬上坐飛機過來。
+馬父: 老婆子，你把話筒快給我，我要親自跟她講話。
+馬父: 喂！你…你…你是小娟閨女嗎？我是你爸…爸爸呀！
+馬小娟: 爸，你怎麼啦！說起話來老是吞吞吐吐的，有哪裏不舒服？
+馬父: 閨女，我在醫…醫院裏住院呀！
+馬小娟: 怎麼？你住院啦？
+馬母: 閨女，是這樣的，前幾天你爸到郊外釣魚，不小心跌倒在水塘裏，差點被淹死了，幸虧被別人救了上來，現在還一直髮着高燒，就這樣住進了醫院。
+馬小娟: 哎喲！我的媽媽呀！這麼大的事你爲什麼不早點告訴我呢！
+馬母: 剛纔我給你打電話就是爲了告訴你爸爸的住院的事，可你說在醫院裏陪外婆住院，所以我就不好提你爸爸生病的事啦！
+馬小娟: 媽，你也真是的，我是爸的獨生女兒，這麼大的事有什麼不好說的呢！明天我馬上趕回上海來看望爸爸。
+Is there a norm violation between the parent and the child?
+
+In this dialogue, the mother is violating the norm of honesty by not telling her daughter the truth about her father's hospitalization. The daughter is also violating the norm of filial piety by not visiting her father in the hospital immediately.
+
+
+
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+Parents should not hit their children.
+Parents should support their children.
+Parents should respect their children's decision and privacy.
+左正鵬: 麗華，你怎麼啦，哪裏不舒服，你爲什麼躺在牀上，這是怎麼回事？你說呀！你跟我快快說呀！
+左正鵬: 麗華，你怎麼不會說話了？你患的是什麼病呀？
+左正鵬: 我在學校有天晚上眼皮跳得厲害，心神不安，怎麼也睡不着，誰知道這就是你發生這件事的預兆呀！
+左母: 正鵬，你就別哭了。這都是兩個月前的事了。
+左正鵬: 媽，當時你們爲什麼不告訴我，是誰叫你們瞞着我的呀？
+左正鵬: 媽，你們這些人的心腸好毒辣呀！她病成這樣了，你們還瞞着我，是誰叫你們這樣做的，我饒不了他！我若早點知道把她送到大醫院去治療，也不至於她今天會癱在牀上，哎喲，我的可憐妻子，我的心肝寶貝，我對不起你呀！我的心好疼的……
+左母: 正鵬，不是我們心狠，故意瞞着你不說，我們也考慮了，怕影響你的學習，反正你快要放暑假了。
+左正鵬: 媽，學習比妻子的生命還重要嗎？假如她有了三長兩短的話，我讀大學還有什麼意義？我上大學還不是爲了妻子，爲了孩子嗎？麗華呀！你在家裏孝敬公婆，養育孩子，含辛茹苦，使你患病致殘，你說我今後應該怎樣去做才能對得起你呀！從今往後，我倆不能再用語言交流了，你不能和我肩並肩走路了。我的工作失去了你的支撐。我的拼搏失去了後盾力量，哎喲喲，我的心如萬箭穿心呀……老天爺，你怎麼不長眼，我的家經受不了再次折騰了。
+村姑: 正鵬，你回來了，回來了就好，你家裏發生了這麼大的事，你在學校眼皮都沒有跳過？
+左正鵬: 村姑，你就別問了，反正這事已經過去很久了，感謝你對我麗華的照顧和關心。
+左正鵬: 這都是去年的事了，你也病糊塗了。春節我回家不是跟你說過了已經收到了！
+Is there a norm violation?
+
+It appears that there may be a norm violation in the way that the mother and father treated the wife when she was sick. It seems that they did not tell the son about the wife's illness until she was already very sick. This may have caused the son to feel like he could not trust his parents.
+
+Why is 左正鵬 angry?
+
+左正鵬 is angry because his wife is very ill and he feels that his family kept this from him. He is also angry because he feels that they did not do enough to help her.
+
+
+
+張愛: 不爲什麼，考不上還有什麼好說的？
+張一榮: 這是誰讓你這麼說的？
+張愛: 爸，我已經不是小孩子了，我有自己的思想，這些都是我自己心裏想的。沒人教我。
+張一榮: 不行！考不上你就給我復讀！什麼技校？
+張愛: 爸，你覺得咱們這個家現在允許嗎？
+張一榮: 什麼允許不允許的？這些事不用你瞎操心，你的任務就是好好上學！知道不？
+張愛: 我知道，你和媽都希望我和妹妹將來都有出息。可是，爸，以咱家現在的條件，拿什麼供我們倆上學？
+張一榮: 我就是砸鍋賣鐵也要供你們上學！這事不用你管！你好好讀你的書去！
+Why is 張愛 angry?
+
+張愛 is angry because he feels that he is not being given a chance to pursue his own dreams and goals. He feels that his father is only concerned with him getting good grades and going to a good school, and does not care about what he wants to do with his life.
+
+Is there a norm violation between parent and child?
+
+There may be a norm violation between parent and child if the child feels that the parent is not allowing them to pursue their own interests or goals. The child may feel that the parent is only concerned with their academic performance and not with their overall wellbeing.
+
+
+張愛: 我不想幹嘛！我就是想幫家裏減輕點負擔。我有錯嗎我？
+張一榮: 減輕負擔？怎麼減？你去上技校就是跟我們減輕負擔啊？上技校不要錢嗎？
+張愛: 你放心！我如果上技校的話不會花家裏一分錢的！
+張一榮: 你這孩子，還反了你了！
+宋喬: 張愛！你想氣死我啊你！
+張愛: 媽，你們怎麼就不能理解下我呢？
+張一榮: 那你理解我們嗎？
+張愛: 我理解。我理解你們所以才決定這麼做的。這有什麼不對嗎？
+Why is 張愛 angry?
+
+張愛 is angry because her parents refuse to let her go to trade school. She feels that they are not understanding her and are only thinking about themselves.
+
+
+宋喬: 行了！有什麼事不能好好說，非要動手啊？
+張心: 你讓他打！最好把我打死纔好呢！
+張一榮: 你個死丫頭！我。
+Is there a norm violation between parent and child?
+
+There may be a norm violation if the child feels like they are being attacked or if the parent is using violence as a way to communicate.
+
+Why is 張心 angry?
+
+張心 is angry because 張一榮 has hit him.
+
+
+
+宋喬: 你這孩子！你真想氣死我們你才甘心哪？
+張心: 是！我不管做什麼都不對！不管做什麼都不如姐！對吧？學習不如她，也沒她懂事，沒她孝順。是吧？我在你們眼裏就是這樣的，對吧？
+宋喬: 阿心！你現在怎麼變得這麼任性？
+張心: 任性？是啊我是任性，所以總惹你們生氣，放心！我以後不會再惹你們生氣了！
+宋喬: 你要去哪裏？
+張心: 我能去哪？只要我消失了，就沒人惹你們生氣了，不是嗎？
+Why is 張心 angry?
+
+張心 is angry because they feel like they are always doing something wrong and that they are not as good as their sister in everything. They feel like their parents are always angry at them and that they are not good enough in anything.
+
+
+張一榮: 你別管我是怎麼知道的，你就說是不是！
+張心: 不是！
+張一榮: 我都知道啦！別再把我當傻子哄了！
+張心: 是又怎麼樣？不是又怎麼樣？
+張一榮: 你最近都在哪上班呢？
+張心: 這個不必向你彙報吧？這是我的工作，跟你沒有關係。
+張一榮: 是！是跟我沒關係！你想隨落我管不着，我也不想管！只是別在我眼皮底下晃悠，你不嫌丟人我還嫌丟人呢！
+張心: 我怎麼丟人了？我丟什麼人了？我去撿垃圾了還是去賣身了？
+Is there a norm violation between parent and child?
+
+Yes, there is a norm violation between parent and child.
+
+What is the norm violation?
+
+The norm violation is that the parent is asking the child about their work. The child is telling the parent that it is none of their business.
+
+Why is 張心 angry?
+
+張心 is angry because 張一榮 is trying to control her and tell her what to do. She feels that he is not respecting her autonomy and her privacy.
+
+
+
+張一榮: 你要是去撿垃圾了我也許還會幫你撿呢！
+宋喬: 老張你這是幹什麼？有什麼話不能好好說非得打人？！
+張愛: 爸。
+張心: 你又打我？。
+張一榮: 打你怎麼了？我還嫌打遲了呢！要是小時候就好好教育你，也許現在你還不至於成這樣！
+張心: 就因爲我去幫我男朋友？就因爲我在酒店工作？這因爲這些？這些我有錯嘛你打我？
+張一榮: 有！你那個男朋友是個什麼東西？啊？整天就知道吃喝玩樂，除了把你帶壞，他還會什麼？啊？還有你不上學我管不了，你想作踐你自己我也管不着，但是別在我眼皮底下，給我滾遠點！你想怎麼我都不管！
+宋喬: 你說夠了沒有？她是你女兒，不是別人！你怎麼能這樣說她呢？！
+張一榮: 正因爲看在她還是我女兒的份上我纔會這樣說，要是換了別人我還懶得說呢！
+Is there a norm violation between parent and child?
+
+Yes, there is a norm violation between parent and child.
+
+What is the norm violation?
+
+The norm violation is that the parent is hitting the child.
+
+Why is 張心 angry?
+
+張心 is angry because her father, 張一榮, hit her and called her names. 張一榮 is angry because he feels that 張心 is not living up to her potential and is wasting her life by dating a man he feels is unworthy and working at a job he feels is beneath her.
