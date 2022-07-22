@@ -9,92 +9,151 @@ Cluster 0:
 -------------------------------------------------------------
 
 Cluster 1:
-1832 - There is no violation of social norms.
-807 - There is no violation of social norms.
-1271 - There is no violation of social norms.
-990 - There is no violation of social norms.
-3541 - There is no violation of social norms.
-1078 - There is no violation of social norms.
-675 - There is no violation of social norm.
+404 - Yes, 宋喬 violated the social norm of filial piety.
+2599 - Yes, 學清 violated the social norm of filial piety.
+407 - Yes, 宋喬 violated the social norm of filial piety.
+3964 - Yes, 高秀英 violated the social norm of filial piety.
+2600 - Yes, 學清 violated the social norm of filial piety.
+2511 - Yes, 大爺 violated the social norm of filial piety.
+2837 - 學清 may have violated the social norm of filial piety.
+522 - Yes, 宋喬 violated the social norm of filial piety.
 -------------------------------------------------------------
 
 Cluster 2:
-1832 - There is no violation of social norms.
-807 - There is no violation of social norms.
-1271 - There is no violation of social norms.
-990 - There is no violation of social norms.
-3541 - There is no violation of social norms.
-1078 - There is no violation of social norms.
-675 - There is no violation of social norm.
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+311 - 張一榮 violated the social norm of not putting his own needs before his child's.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
 -------------------------------------------------------------
 
 Cluster 3:
-1832 - There is no violation of social norms.
-807 - There is no violation of social norms.
-1271 - There is no violation of social norms.
-990 - There is no violation of social norms.
-3541 - There is no violation of social norms.
-1078 - There is no violation of social norms.
-675 - There is no violation of social norm.
+61 - Yes, 向書記 violated the social norm of not being open-minded.
+6 - Yes, 徐父 violated the social norm of not destroying property.
+614 - Yes, 張一榮 violated the social norm of not insulting others.
+1687 - Yes, 黃梅 violated the social norm of not hitting people.
+1179 - There is no social norm that 張一榮 violated.
+20 - Yes, 左父 violated the social norm of being considerate of others.
+883 - 陳世家 violated the social norm of being a good father.
+531 - Yes, 張一榮 violated the social norm of treating children equally.
+320 - Yes, 張一榮 violated the social norm of treating children equally.
+256 - Yes, 劉母 violated the social norm of not giving gifts to leaders.
+3726 - Yes, 母親 violated the social norm of not judging people.
+18 - There is no clear social norm that 徐母 violated.
+2425 - Yes, 學清 violated the social norm of not being grateful.
+636 - Yes, 張一榮 violated the social norm of being polite.
+692 - Yes, 張一榮 violated the social norm of being considerate of others.
+1178 - Yes, 張一榮 violated the social norm of being considerate of others.
+15 - Yes, 左母 violated the social norm of being respectful to one's husband.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
 -------------------------------------------------------------
 
 Cluster 4:
-1832 - There is no violation of social norms.
-807 - There is no violation of social norms.
-1271 - There is no violation of social norms.
-990 - There is no violation of social norms.
-3541 - There is no violation of social norms.
-1078 - There is no violation of social norms.
-675 - There is no violation of social norm.
+686 - 宋喬 did not violate any social norm.
+728 - 宋喬 did not violate any social norm.
+767 - 宋喬 did not violate any social norm.
+632 - 宋喬 did not violate any social norm.
+326 - 宋喬 did not violate any social norm.
+583 - 宋喬 did not violate any social norm that is mentioned in the text.
+318 - 宋喬 did not violate any social norm.
+577 - 宋喬 did not violate any social norm.
+762 - 宋喬 did not violate any social norm.
+1090 - 宋喬 did not violate any social norm.
 -------------------------------------------------------------
 
 Cluster 5:
-1832 - There is no violation of social norms.
-807 - There is no violation of social norms.
-1271 - There is no violation of social norms.
-990 - There is no violation of social norms.
-3541 - There is no violation of social norms.
-1078 - There is no violation of social norms.
-675 - There is no violation of social norm.
+814 - 宋喬 violated the social norm of being respectful to elders.
+1185 - 宋喬 violated the social norm of not bothering people unnecessarily.
+1189 - Yes, 宋喬 violated the social norm of respecting others' belongings.
+798 - 宋喬 violated the social norm of not respecting one's personal autonomy.
+251 - Yes, 外婆 violated the social norm of not disturbing others.
+691 - Yes, 宋喬 violated the social norm of being respectful to one's elders.
+1483 - 黃梅 violated the social norm of being respectful to her daughter's wishes.
+582 - 宋喬 may have violated the social norm of being respectful to one's elders.
 -------------------------------------------------------------
 
 Cluster 6:
-1832 - There is no violation of social norms.
-807 - There is no violation of social norms.
-1271 - There is no violation of social norms.
-990 - There is no violation of social norms.
-3541 - There is no violation of social norms.
-1078 - There is no violation of social norms.
-675 - There is no violation of social norm.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
 -------------------------------------------------------------
 
 Cluster 7:
-1832 - There is no violation of social norms.
-807 - There is no violation of social norms.
-1271 - There is no violation of social norms.
-990 - There is no violation of social norms.
-3541 - There is no violation of social norms.
-1078 - There is no violation of social norms.
-675 - There is no violation of social norm.
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
 -------------------------------------------------------------
 
 Cluster 8:
-1832 - There is no violation of social norms.
-807 - There is no violation of social norms.
-1271 - There is no violation of social norms.
-990 - There is no violation of social norms.
-3541 - There is no violation of social norms.
-1078 - There is no violation of social norms.
-675 - There is no violation of social norm.
+3741 - It is not clear if 馬寶林 violated any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
 -------------------------------------------------------------
 
 Cluster 9:
-1832 - There is no violation of social norms.
-807 - There is no violation of social norms.
-1271 - There is no violation of social norms.
-990 - There is no violation of social norms.
-3541 - There is no violation of social norms.
-1078 - There is no violation of social norms.
-675 - There is no violation of social norm.
+3254 - Yes, 順子 violated the social norm of hospitality by being rude to Xiaohua and trying to make her leave.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+
+Cluster 10:
+12 - Yes, 左母 violated the social norm of being considerate to one's spouse.
+2168 - 連軍 violated the social norm of not being considerate of others.
+1027 - 陳母 violated the social norm of being considerate of others.
+1048 - 陳母 did not violate any social norm.
+-------------------------------------------------------------
+
+Cluster 11:
+688 - Yes, 宋喬 violated the social norm of not talking during a meal.
+1274 - Yes, 宋喬 violated a social norm by not sleeping.
+529 - Yes, 宋喬 violated the social norm of not being too pushy.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+367 - Yes, 宋喬 violated the social norm of respect for elders.
+310 - Yes, 宋喬 violated the social norm of not being truthful.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+1184 - Yes, 宋喬 violated the social norm of timely communication.
+797 - Yes, 宋喬 violated the social norm of being considerate of others.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+737 - Yes, 宋喬 violated the social norm of personal cleanliness.
+1276 - Yes, 宋喬 violated the social norm of not asking too many personal questions.
+818 - Yes, 宋喬 violated the social norm of being unbiased.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+772 - Yes, 宋喬 violated the social norm of being considerate of others.
+863 - Yes, 宋喬 violated the social norm of eating in a timely manner.
+1273 - Yes, 宋喬 violated the social norm of being polite to others.
+555 - 宋喬 violated the social norm of not eating all the food on your plate.
+-------------------------------------------------------------
+
+Cluster 12:
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+3761 - There is no social norm violation.
+3958 - There is no social norm violation.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
+Cluster 13:
+301 - The answer is not provided.
+-------------------------------------------------------------
+
+Cluster 14:
+403 - 張一榮 did not violate any social norm.
+66 - 向書記 did not violate any social norm.
+817 - It is not clear if 宋喬 violated any social norm.
+1047 - No, 陳母 did not violate any social norm.
+1064 - No, 宋喬 did not violate any social norm.
+542 - No, 宋喬 did not violate any social norm.
+859 - No, 宋喬 did not violate any social norm.
 -------------------------------------------------------------
 
