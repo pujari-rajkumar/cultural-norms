@@ -1,0 +1,160 @@
+Cluster 0:
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
+-------------------------------------------------------------
+
+Cluster 1:
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
+-------------------------------------------------------------
+
+Cluster 2:
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
+-------------------------------------------------------------
+
+Cluster 3:
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
+-------------------------------------------------------------
+
+Cluster 4:
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
+-------------------------------------------------------------
+
+Cluster 5:
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
+-------------------------------------------------------------
+
+Cluster 6:
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
+-------------------------------------------------------------
+
+Cluster 7:
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
+-------------------------------------------------------------
+
+Cluster 8:
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
+-------------------------------------------------------------
+
+Cluster 9:
+545 - 宋喬 violated the social norm of not being persistent in asking someone to do something.
+674 - Yes, 陳父 violated the social norm of not talking about sensitive topics in public.
+27 - Yes, 徐母 violated the social norm of not interfering in other people's affairs.
+1180 - Yes, 宋喬 violated a social norm by not being prepared for her wedding.
+1086 - Yes, 宋喬 violated the social norm of privacy. She asked her daughter too many personal questions.
+808 - Yes, 宋喬 violated the social norm of patience because she was impatient to leave the hospital.
+189 - Yes, 左正鵬 violated the social norm of not talking about sensitive topics in public.
+795 - Yes, 宋喬 violated the social norm of not being honest about her feelings.
+288 - Yes, 外婆 violated the social norm of not talking about difficult life events in front of people who are struggling with their own problems.
+2429 - Yes, 向大爺 violated the social norm of not asking for money in return for a favor.
+635 - Yes, 張一榮 violated a social norm by raising his voice in a public place.
+2512 - Yes, 大爺 violated the social norm of not attacking people for no reason.
+2358 - Yes, 大爺 violated the social norm of not being too demanding on others.
+-------------------------------------------------------------
+

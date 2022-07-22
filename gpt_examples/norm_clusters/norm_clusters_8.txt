@@ -1,0 +1,150 @@
+Cluster 0:
+3741 - It is not clear if 馬寶林 violated any social norm.
+66 - 向書記 did not violate any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+1047 - No, 陳母 did not violate any social norm.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+18 - There is no clear social norm that 徐母 violated.
+1048 - 陳母 did not violate any social norm.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
+-------------------------------------------------------------
+
+Cluster 1:
+3741 - It is not clear if 馬寶林 violated any social norm.
+66 - 向書記 did not violate any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+1047 - No, 陳母 did not violate any social norm.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+18 - There is no clear social norm that 徐母 violated.
+1048 - 陳母 did not violate any social norm.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
+-------------------------------------------------------------
+
+Cluster 2:
+3741 - It is not clear if 馬寶林 violated any social norm.
+66 - 向書記 did not violate any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+1047 - No, 陳母 did not violate any social norm.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+18 - There is no clear social norm that 徐母 violated.
+1048 - 陳母 did not violate any social norm.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
+-------------------------------------------------------------
+
+Cluster 3:
+3741 - It is not clear if 馬寶林 violated any social norm.
+66 - 向書記 did not violate any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+1047 - No, 陳母 did not violate any social norm.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+18 - There is no clear social norm that 徐母 violated.
+1048 - 陳母 did not violate any social norm.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
+-------------------------------------------------------------
+
+Cluster 4:
+3741 - It is not clear if 馬寶林 violated any social norm.
+66 - 向書記 did not violate any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+1047 - No, 陳母 did not violate any social norm.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+18 - There is no clear social norm that 徐母 violated.
+1048 - 陳母 did not violate any social norm.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
+-------------------------------------------------------------
+
+Cluster 5:
+3741 - It is not clear if 馬寶林 violated any social norm.
+66 - 向書記 did not violate any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+1047 - No, 陳母 did not violate any social norm.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+18 - There is no clear social norm that 徐母 violated.
+1048 - 陳母 did not violate any social norm.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
+-------------------------------------------------------------
+
+Cluster 6:
+3741 - It is not clear if 馬寶林 violated any social norm.
+66 - 向書記 did not violate any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+1047 - No, 陳母 did not violate any social norm.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+18 - There is no clear social norm that 徐母 violated.
+1048 - 陳母 did not violate any social norm.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
+-------------------------------------------------------------
+
+Cluster 7:
+3741 - It is not clear if 馬寶林 violated any social norm.
+66 - 向書記 did not violate any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+1047 - No, 陳母 did not violate any social norm.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+18 - There is no clear social norm that 徐母 violated.
+1048 - 陳母 did not violate any social norm.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
+-------------------------------------------------------------
+
+Cluster 8:
+3741 - It is not clear if 馬寶林 violated any social norm.
+66 - 向書記 did not violate any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+1047 - No, 陳母 did not violate any social norm.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+18 - There is no clear social norm that 徐母 violated.
+1048 - 陳母 did not violate any social norm.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
+-------------------------------------------------------------
+
+Cluster 9:
+3741 - It is not clear if 馬寶林 violated any social norm.
+66 - 向書記 did not violate any social norm.
+3740 - Yes, 馬寶林 violated social norms by asking 馬軍 about his personal finances.
+1047 - No, 陳母 did not violate any social norm.
+3474 - It is not clear from the text whether 韓長林 violated any social norm.
+1410 - 黃梅 did not violate any social norm.
+3468 - There is no indication that 馬洪偉 violated any social norm.
+3756 - There is no social norm that 馬洪偉 violated.
+18 - There is no clear social norm that 徐母 violated.
+1048 - 陳母 did not violate any social norm.
+3760 - There is no indication that 馬洪偉 violated any social norm.
+3753 - It is not clear from the context if 高秀英 violated any social norm.
+-------------------------------------------------------------
+

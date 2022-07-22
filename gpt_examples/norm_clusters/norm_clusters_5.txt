@@ -1,0 +1,120 @@
+Cluster 0:
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+
+Cluster 1:
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+
+Cluster 2:
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+
+Cluster 3:
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+
+Cluster 4:
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+
+Cluster 5:
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+
+Cluster 6:
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+
+Cluster 7:
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+
+Cluster 8:
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+
+Cluster 9:
+149 - 楊父 violated the norm of filial piety. He should have listened to his son and respected his wishes.
+2356 - Yes, 向大爺 violated the social norm of respect for one's elders. He was constantly nagging 向永 and didn't seem to understand or respect what he was going through.
+3752 - Yes, 高秀英 violated the social norm of keeping secrets. She revealed 馬軍's past to the other characters, which he had previously kept hidden.
+1161 - Yes, 張一榮 violated a social norm by interrupting 張心 and 張愛's conversation.
+3078 - 陳小秋 violated the social norm of marriage by trying to force 曉華 to marry someone she does not want to marry.
+518 - Yes, 張一榮 violated a social norm by asking 張心 about his work. 張心's work is private information and 張一榮 should not have asked about it.
+697 - 張心 may have felt that 宋喬 was not respecting their personal space and autonomy by trying to force them to go inside.
+1412 - Yes, 黃梅 violated the social norm of filial piety. She should have listened to her daughter's opinion and been more cautious in her judgement of 無賴.
+3077 - Yes, 陳小秋 violated the norm of getting consent from 曉華 before setting her up with 羅川.
+-------------------------------------------------------------
+

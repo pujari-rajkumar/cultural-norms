@@ -1,0 +1,170 @@
+Cluster 0:
+1832 - There is no violation of social norms.
+807 - There is no violation of social norms.
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+1271 - There is no violation of social norms.
+3761 - There is no social norm violation.
+990 - There is no violation of social norms.
+3541 - There is no violation of social norms.
+1078 - There is no violation of social norms.
+301 - The answer is not provided.
+3958 - There is no social norm violation.
+675 - There is no violation of social norm.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
+Cluster 1:
+1832 - There is no violation of social norms.
+807 - There is no violation of social norms.
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+1271 - There is no violation of social norms.
+3761 - There is no social norm violation.
+990 - There is no violation of social norms.
+3541 - There is no violation of social norms.
+1078 - There is no violation of social norms.
+301 - The answer is not provided.
+3958 - There is no social norm violation.
+675 - There is no violation of social norm.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
+Cluster 2:
+1832 - There is no violation of social norms.
+807 - There is no violation of social norms.
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+1271 - There is no violation of social norms.
+3761 - There is no social norm violation.
+990 - There is no violation of social norms.
+3541 - There is no violation of social norms.
+1078 - There is no violation of social norms.
+301 - The answer is not provided.
+3958 - There is no social norm violation.
+675 - There is no violation of social norm.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
+Cluster 3:
+1832 - There is no violation of social norms.
+807 - There is no violation of social norms.
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+1271 - There is no violation of social norms.
+3761 - There is no social norm violation.
+990 - There is no violation of social norms.
+3541 - There is no violation of social norms.
+1078 - There is no violation of social norms.
+301 - The answer is not provided.
+3958 - There is no social norm violation.
+675 - There is no violation of social norm.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
+Cluster 4:
+1832 - There is no violation of social norms.
+807 - There is no violation of social norms.
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+1271 - There is no violation of social norms.
+3761 - There is no social norm violation.
+990 - There is no violation of social norms.
+3541 - There is no violation of social norms.
+1078 - There is no violation of social norms.
+301 - The answer is not provided.
+3958 - There is no social norm violation.
+675 - There is no violation of social norm.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
+Cluster 5:
+1832 - There is no violation of social norms.
+807 - There is no violation of social norms.
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+1271 - There is no violation of social norms.
+3761 - There is no social norm violation.
+990 - There is no violation of social norms.
+3541 - There is no violation of social norms.
+1078 - There is no violation of social norms.
+301 - The answer is not provided.
+3958 - There is no social norm violation.
+675 - There is no violation of social norm.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
+Cluster 6:
+1832 - There is no violation of social norms.
+807 - There is no violation of social norms.
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+1271 - There is no violation of social norms.
+3761 - There is no social norm violation.
+990 - There is no violation of social norms.
+3541 - There is no violation of social norms.
+1078 - There is no violation of social norms.
+301 - The answer is not provided.
+3958 - There is no social norm violation.
+675 - There is no violation of social norm.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
+Cluster 7:
+1832 - There is no violation of social norms.
+807 - There is no violation of social norms.
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+1271 - There is no violation of social norms.
+3761 - There is no social norm violation.
+990 - There is no violation of social norms.
+3541 - There is no violation of social norms.
+1078 - There is no violation of social norms.
+301 - The answer is not provided.
+3958 - There is no social norm violation.
+675 - There is no violation of social norm.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
+Cluster 8:
+1832 - There is no violation of social norms.
+807 - There is no violation of social norms.
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+1271 - There is no violation of social norms.
+3761 - There is no social norm violation.
+990 - There is no violation of social norms.
+3541 - There is no violation of social norms.
+1078 - There is no violation of social norms.
+301 - The answer is not provided.
+3958 - There is no social norm violation.
+675 - There is no violation of social norm.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
+Cluster 9:
+1832 - There is no violation of social norms.
+807 - There is no violation of social norms.
+2283 - There is no social norm violation.
+622 - There is no social norm violation.
+1271 - There is no violation of social norms.
+3761 - There is no social norm violation.
+990 - There is no violation of social norms.
+3541 - There is no violation of social norms.
+1078 - There is no violation of social norms.
+301 - The answer is not provided.
+3958 - There is no social norm violation.
+675 - There is no violation of social norm.
+992 - There is no social norm violation mentioned.
+3961 - There is no social norm violation.
+-------------------------------------------------------------
+
