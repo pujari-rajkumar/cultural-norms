@@ -81,7 +81,7 @@ This conversation does not seem to affect their relationship in the long term.
 
 =================================================================================================
 
-3741
+3741: parent-child
 
 馬軍(disgust): 我跟他說了，年底前一定還。
 馬寶林(angry): 現在能還就現在還，爲啥非等到年底呢？
@@ -112,7 +112,7 @@ Yes, this conversation could affect their relationship in the long term.
 
 =================================================================================================
 
-2837
+2837: parent-child
 
 學清(angry): 猴子也被抓了，你說你都在做什麼啊？
 天強(disgust): 別說我啊，和我沒關係。
