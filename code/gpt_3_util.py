@@ -69,7 +69,7 @@ def _extract_raw_result_chat(raw: dict) -> str:
 
 def generate_explanation(conv: str,
                          questions: list,
-                         model_name: str = "gpt-3.5-turbo",
+                         model_name: str = "text-davinci-003",
                          verbose: bool = False,
                          debug_log: str = None) -> dict:
     init_conv = _append_question(conv, questions[0])
